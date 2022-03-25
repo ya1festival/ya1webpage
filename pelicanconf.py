@@ -1,34 +1,29 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
-AUTHOR = 'GitLab'
-SITENAME = 'Example Pelican website using GitLab Pages!'
-SITEURL = ''
+AUTHOR = "Levin Eric Zimmermann & Roberto Maxwell Beseler"
+SITENAME = "ya¹ day festival for contemporary music"
+# SITEURL = 'https://ya-festival.org'
+SITEURL = ""
 
-PATH = 'content'
+PATH = "content"
 
-TIMEZONE = 'Europe/Athens'
+TIMEZONE = "Europe/Berlin"
 
-DEFAULT_LANG = 'en'
-
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
+DEFAULT_LANG = "en"
 
 # Blogroll
-LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
+LINK_LIST = [
+    # ("Link-name", "Link"),
+]
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = [
+    # ("You can add links in your config file", "#"),
+    # ("Another social link", "#"),
+]
 
 DEFAULT_PAGINATION = 10
 
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+THEME = "ya-theme/"
+# CSS_FILE = "main.css"

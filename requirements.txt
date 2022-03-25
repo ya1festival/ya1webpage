@@ -1,0 +1,3 @@
+pelican ~= 4.7
+markdown
+typogrify

@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "ppmori";
+    src: url('/theme/font/pp_mori/PPMori-SemiBold.otf');
+}
+
+@font-face {
+    font-family: "ppmori-italic";
+    src: url('/theme/font/pp_mori/PPMori-SemiBoldItalic.otf');
+
+body {
+  background-image: url("/theme/images/index_bckgmoss_ya_erk.jpg");
+  font-family: "ppmori";
+    font-size: 200%;
+    color: #B45B5B;
+  }

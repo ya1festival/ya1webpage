@@ -1,16 +1,46 @@
 @font-face {
-  font-family: "ppmori";
-  src: url('/theme/font/pp_mori/PPMori-SemiBold.otf');
-  src: url('/theme/font/pp_mori/PPMori-SemiBoldItalic.otf') format('embedded-opentype'),
+    font-family: "ppmori";
+    src: url('/theme/font/pp_mori/PPMori-SemiBold.otf');
+}
+
+@font-face {
+    font-family: "ppmori-italic";
+    src: url('/theme/font/pp_mori/PPMori-SemiBoldItalic.otf');
 }
 
 body {
-  background-image: url("/images/moss_erk.JPG");
-  font-family: "ppmori";
+    font-family: "ppmori";
+}
+
+
+.navigation-link {
+    font-size: 120%;
+    color: #B45B5B;
+}
+
+.navigation-link:hover {
+    color: #B45B5B;
+    font-family: "ppmori-italic";
 }
 
 .rotate {
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    font-size: 250%;
+    color: #FCF698;
+    font-size: 940%;
 }
+
+.ya-navigation-bar {
+    background-image: url("/images/moss_erk.JPG");
+}
+
+
+.fixed {
+        position: fixed;
+        width: 25%;
+}
+.scrollit {
+        float: right;
+        width: 71%
+}
+

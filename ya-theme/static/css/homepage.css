@@ -8,3 +8,9 @@ body {
   background-image: url("/images/moss_erk.JPG");
   font-family: "ppmori";
 }
+
+.rotate {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 250%;
+}

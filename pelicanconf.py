@@ -27,3 +27,13 @@ DEFAULT_PAGINATION = 10
 
 THEME = "ya-theme/"
 # CSS_FILE = "main.css"
+
+# Title / Link
+MENU_ITEM_LIST = [
+    ["1", "/"],
+    ["performer:innen", "artists"],
+    ["maps", "maps"],
+    ["team", "team"],
+    ["impressum", "impressum"],
+    ["förderer", "sponsors"],
+]

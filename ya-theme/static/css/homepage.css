@@ -1,7 +1,7 @@
 @font-face {
   font-family: "ppmori";
-  src: url('"static/font/pp_mori/PPMori-SemiBold.otf"');
-  src: url('static/font/pp_mori/PPMori-SemiBoldItalic.otf') format('embedded-opentype'),
+  src: url('/theme/font/pp_mori/PPMori-SemiBold.otf');
+  src: url('/theme/font/pp_mori/PPMori-SemiBoldItalic.otf') format('embedded-opentype'),
 }
 
 body {

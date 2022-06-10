@@ -137,8 +137,12 @@ body {
     color: #B45B5B;
 }
 
+:root {
+  --ya-link-color: #B45B5B;
+}
+
 .ya-menu-link {
-    color: #B45B5B;
+    color: var(--ya-link-color);
 }
 
 .ya-menu-link:hover {
@@ -147,6 +151,9 @@ body {
     color: #B45B5B;
 }
 
+.ya-menu-link-color {
+    color: var(--ya-link-color);
+}
 
 #be-there {
     /*

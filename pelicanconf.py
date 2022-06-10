@@ -33,7 +33,10 @@ MENU_ITEM_LIST = [
     ["1", "/"],
     ["performer:innen", "artists"],
     ["maps", "maps"],
+    ["tickets", "tickets"],
     ["team", "team"],
+    ["gallery", "gallery"],
     ["impressum", "impressum"],
+    ["datenschutz", "datenschutz"],
     ["förderer", "sponsors"],
 ]

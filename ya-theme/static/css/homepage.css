@@ -51,6 +51,16 @@ body {
 }
 
 
+.ya-header  {
+    background-image: url("/images/yllwmoss_ya1_erk_resized.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 16vh;
+}
+
+
 .fixed {
     position: fixed;
     width: 25%;
@@ -137,3 +147,20 @@ body {
     color: #B45B5B;
 }
 
+
+#be-there {
+    /*
+    margin-top: 20vh;
+    margin-left: 51vh;
+    */
+    width: 50vh;
+    height: auto;
+}
+
+.time-and-space {
+    color: #fad2d2;
+}
+
+.ya-text {
+    color: #2b7cd8;
+}

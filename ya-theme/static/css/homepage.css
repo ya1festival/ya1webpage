@@ -27,7 +27,11 @@ body {
     writing-mode: vertical-rl;
     text-orientation: mixed;
     color: #FCF698;
-    font-size: 940%;
+}
+
+.vertical {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
 }
 
 .ya-navigation-bar {
@@ -36,11 +40,85 @@ body {
 
 
 .fixed {
-        position: fixed;
-        width: 25%;
+    position: fixed;
+    width: 25%;
 }
 .scrollit {
-        float: right;
-        width: 71%
+    float: right;
+    width: 71%
+}
+
+@media screen and (min-width: 1408px) {
+    .is-size-1-fullhd {
+        font-size: 9rem !important;
+    }
+}
+
+
+@media screen and (min-width: 1216px) and (max-width: 1407px) {
+    .is-size-1-widescreen-only {
+        font-size: 4rem !important;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1215px) {
+    .is-size-1-desktop-only {
+        font-size: 4rem !important;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+    .is-size-1-tablet-only {
+        font-size: 3rem !important;
+    }
+}
+
+
+.sidebar {
+    padding: 3vh;
+}
+
+.is-sticky {
+    position: sticky;
+    vertical-align: top;
+    width: 60vh;
+    max-height: 100vh;
+    top: 0;
+    bottom: 0;
+}
+
+
+.is-auto-overflow-y {
+    overflow-y: hidden !important;
+}
+
+.is-hidden-overflow-x {
+    overflow-x: hidden !important;
+}
+
+
+.is-hidden-overflow-y {
+    overflow-y: hidden !important;
+}
+
+
+.menu-list a {
+    color: #B45B5B;
+}
+
+.menu-list a:hover {
+    background-color: rgba(0, 0, 0, 0);
+    font-family: "ppmori-italic";
+    color: #B45B5B;
+}
+
+.ya-menu-link {
+    color: #B45B5B;
+}
+
+.ya-menu-link:hover {
+    background-color: rgba(0, 0, 0, 0);
+    font-family: "ppmori-italic";
+    color: #B45B5B;
 }
 

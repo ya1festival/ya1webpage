@@ -13,29 +13,6 @@
     </head>
     <body>
         <div class="columns is-variable">
-            <!-- Sticky sidebar for everything bigger than mobile. -->
-            <div class="columns is-variable is-hidden-mobile sidebar ya-navigation-bar">
-                <div class="column is-hidden-overflow-x">
-                    <div class="container">
-                        <span style="white-space: nowrap;" class="rotate is-size-1-fullhd is-size-1-widescreen-only is-size-1-desktop-only is-size-1-tablet-only is-size-1">
-                            ¹yet another tagesfestival für aktuelle musik
-                        </span>
-                    </div>
-                </div>
-                <div class="column is-sticky">
-                    <nav class="menu">
-                        <ul class="menu-list">
-                            {% for title, link in MENU_ITEM_LIST %}
-                            <li>
-                                <p class="is-size-4-widescreen">
-                                <a href="{{ link }}" class="ya-menu-link">{{ title }}</a>
-                                </p>
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </nav>
-                </div>
-            </div>
             <!-- Dropdown menu for phones -->
             <div class="column is-hidden-tablet">
                 <div class="dropdown">
@@ -58,6 +35,29 @@
                     </div>
                 </div>
             </div>
+            <!-- Sticky sidebar for everything bigger than mobile. -->
+            <div class="columns is-variable is-hidden-mobile sidebar ya-navigation-bar is-gapless">
+                <div class="column is-three-fifths is-hidden-overflow-x mr-0 pr-0">
+                    <div class="container p-0 m-0">
+                        <span style="white-space: nowrap;" class="rotate is-size-1-fullhd is-size-1-widescreen-only is-size-1-desktop-only is-size-1-tablet-only is-size-1">
+                            ¹yet another tagesfestival für aktuelle musik
+                        </span>
+                    </div>
+                </div>
+                <div class="column is-sticky ml-0 pl-0" id="ya-menu">
+                    <nav class="menu p-0 ml-0 mt-6 pt-6">
+                        <ul style="line-height: 1vh;" class="menu-list p-0 m-0">
+                            {% for title, link in MENU_ITEM_LIST %}
+                            <li class="p-0 m-0">
+                                <p class="is-size-4-widescreen">
+                                    <a href="{{ link }}" class="ya-menu-link">{{ title }}</a>
+                                </p>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </nav>
+                </div>
+            </div> 
             <!-- Page content -->
             <div class="column">
                 <section class="section">

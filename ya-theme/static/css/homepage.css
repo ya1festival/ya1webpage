@@ -35,7 +35,12 @@ body {
 }
 
 .ya-navigation-bar {
-    background-image: url("/images/moss_erk.JPG");
+    background-image: url("/images/moss_erk_sliced.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
 }
 
 
@@ -57,13 +62,13 @@ body {
 
 @media screen and (min-width: 1216px) and (max-width: 1407px) {
     .is-size-1-widescreen-only {
-        font-size: 4rem !important;
+        font-size: 7rem !important;
     }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1215px) {
     .is-size-1-desktop-only {
-        font-size: 4rem !important;
+        font-size: 6rem !important;
     }
 }
 
@@ -81,10 +86,13 @@ body {
 .is-sticky {
     position: sticky;
     vertical-align: top;
-    width: 60vh;
     max-height: 100vh;
     top: 0;
     bottom: 0;
+}
+
+#ya-menu {
+    width: 30vh;
 }
 
 

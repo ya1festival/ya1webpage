@@ -40,7 +40,14 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
 
+.ya-menu-button {
+    background-image: url("/images/moss_erk.JPG");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 

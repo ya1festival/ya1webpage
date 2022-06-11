@@ -1,3 +1,5 @@
+{% import 'language_selector.j2' as language_selectors %}
+
 {% extends "base.html" %}
 
 {% block head %}
@@ -113,11 +115,10 @@
     </div>
 </div>
 
+
 <!-- FOOTER -->
 <div class="container has-text-right pr-4 mr-4">
-    <p class="is-size-2 ya-menu-link-color">
-    <a href="/" class="ya-menu-link">EN</a> . <a href="/" class="ya-menu-link">DE</a>
-    </p>
+    {{ language_selectors.get_language_selector(language, SITEURL + "/" + article.slug) }}
 </div>
 <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/homepage.js"></script>
 

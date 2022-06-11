@@ -1,0 +1,15 @@
+{% macro get_language_selector(language, url) %}
+
+   {% if language == "de" %}
+    {% set english_link = url + "/en" %}
+    {% set german_link = url %}
+{% else %}
+    {% set english_link = url %}
+    {% set german_link = url.split("/")[:-1]|join("/") %}
+{% endif %}
+
+<p class="is-size-2 ya-menu-link-color">
+    <a href="{{ english_link }}" class="ya-menu-link">EN</a>. <a href="{{ german_link }}" class="ya-menu-link">DE</a>
+</p>
+
+{% endmacro %}

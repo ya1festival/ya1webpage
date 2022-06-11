@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 
 {% import 'language_selector.j2' as language_selectors %}
+{% import 'navigation.j2' as navigations %}
 
 {% block head %}
     <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/index.css" />
@@ -23,7 +24,7 @@
     <div class="columns is-sticky">
         <div class="column is-one-third"></div>
         <div class="column is-one-third full-image">
-                <a  href="/maps">
+                <a href="{{ navigations.get_navigation_url(SITEURL, "maps", language) }}">
                     <img class="zoom-on-hover" src="/theme/images/ya_logo_scaled.png">
                 </a>
         </div>

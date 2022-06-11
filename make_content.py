@@ -12,17 +12,24 @@ GERMAN = "de"
 ENGLISH = "en"
 
 
+
+
 @dataclasses.dataclass(frozen=True)
 class Page(object):
     name: str
     template_name: str
     content: str = dataclasses.field(default_factory=lambda: "")
+    render_german: bool = True
 
     def get_markdown_string(self, language: str = GERMAN) -> str:
         if language is GERMAN:
             slug = self.name
         else:
-            slug = f"{self.name}/{language}"
+            if self.render_german:
+                slug = f"{self.name}/{language}"
+            # XXX: Special case for english index pge
+            else:
+                slug = language
 
         # XXX: We add language to title instead of 'lang' because
         # we want to avoid that pelican auto adds a suffix to the
@@ -35,11 +42,15 @@ date: 11.06.2022
 """
 
     def render(self):
-        with open(f"{CONTENT_PATH}/{self.name}.md", "w") as f:
-            f.write(self.get_markdown_string(GERMAN))
+        if self.render_german:
+            with open(f"{CONTENT_PATH}/{self.name}.md", "w") as f:
+                f.write(self.get_markdown_string(GERMAN))
 
         directory_path = f"{CONTENT_PATH}/{self.name}"
-        os.mkdir(directory_path)
+        try:
+            os.mkdir(directory_path)
+        except FileExistsError:
+            pass
         with open(f"{directory_path}/{ENGLISH}.md", "w") as f:
             f.write(self.get_markdown_string(ENGLISH))
 
@@ -47,6 +58,8 @@ date: 11.06.2022
 PAGE_TUPLE = (
     Page("maps", "maps", ""),
     Page("artists", "homepage", ""),
+    # XXX: This is the english index page.
+    Page("/", "index", "", render_german=False),
 )
 
 

@@ -14,7 +14,7 @@ DEFAULT_LANG = "de"
 
 # Blogroll
 LINK_LIST = [
-    # ("Link-name", "Link"),
+    ("instagram", "https://www.instagram.com/ya1festival/"),
 ]
 
 # Social widget
@@ -28,18 +28,13 @@ DEFAULT_PAGINATION = 10
 THEME = "ya-theme/"
 
 # Title / Link
+# XXX: Footer links are directly defined in 'footer.j2'
 MENU_ITEM_LIST = [
     [{"de": "1", "en": "1"}, ""],
     [{"de": "performer:innen", "en": "artists"}, "artists"],
     [{"de": "karten", "en": "maps"}, "maps"],
     [{"de": "tickets", "en": "tickets"}, "tickets"],
     [{"de": "team", "en": "team"}, "team"],
-]
-
-FOOTER_ITEM_LIST = [
-    [{"de": "impressum", "en": "impressum"}, "impressum"],
-    [{"de": "datenschutz", "en": "datenschutz"}, "datenschutz"],
-    [{"de": "förderer", "en": "sponsors"}, "sponsors"],
 ]
 
 TAGS_SAVE_AS = ""

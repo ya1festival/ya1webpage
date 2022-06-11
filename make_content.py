@@ -12,8 +12,6 @@ GERMAN = "de"
 ENGLISH = "en"
 
 
-
-
 @dataclasses.dataclass(frozen=True)
 class Page(object):
     name: str

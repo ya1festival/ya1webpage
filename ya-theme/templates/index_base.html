@@ -1,13 +1,25 @@
 {% extends "base.html" %}
 
+{% import 'language_selector.j2' as language_selectors %}
 
 {% block head %}
-<link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/index.css" />
+    <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/index.css" />
 {% endblock head %}
+
+{% if article is not defined or article is none %}
+    {% set language = "de" %}
+    {% set url = SITEURL %}
+{% else %}
+    {% set language = article.title %}
+    {% set url = SITEURL + "/" + language %}
+{% endif %}
 
 {% block body %}
 
 <div class="container p-0 m-0" id="index-page-container">
+    <div class="container has-text-right pr-4 mr-4">
+        {{ language_selectors.get_language_selector(language, url) }}
+    </div>
     <div class="columns is-sticky">
         <div class="column is-one-third"></div>
         <div class="column is-one-third full-image">
@@ -21,10 +33,8 @@
         <div class="column is-one-third"></div>
         <div class="column is-one-third">
             <p class="ya-text">
-            im sinne eines postkolonialen diskurs soll
-            unterschiedliche verterer:innen von raeumlich und zeitlich getrennter avancierter
-            musiktraditionen innherlab
-            innerhalb der in ihrer tradition angemessenen auffuehreungsbedingungen.
+            {% block text0 %}
+            {% endblock %}
             </p>
         </div>
     </div>
@@ -41,10 +51,8 @@
     <div class="columns pl-4 ml-6">
         <div class="column">
             <p class="ya-text">
-            im sinne eines postkolonialen diskurs soll
-            unterschiedliche verterer:innen von raeumlich und zeitlich getrennter avancierter
-            musiktraditionen innherlab
-            innerhalb der in ihrer tradition angemessenen auffuehreungsbedingungen.
+            {% block text1 %}
+            {% endblock %}
             </p>
         </div>
         <div class="column is-three-fifths"></div>

@@ -30,3 +30,17 @@ body {
 .ya-text {
     color: var(--ya-text-color);
 }
+
+.ya-menu-link {
+    color: var(--ya-link-color);
+}
+
+.ya-menu-link:hover {
+    background-color: rgba(0, 0, 0, 0);
+    font-family: "ppmori-italic";
+    color: var(--ya-link-color);
+}
+
+.ya-menu-link-color {
+    color: var(--ya-link-color);
+}

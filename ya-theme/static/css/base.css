@@ -41,6 +41,26 @@ body {
     color: var(--ya-link-color);
 }
 
+.ya-footer-link {
+    color: white
+}
+
+.ya-footer-link:hover {
+    font-family: "ppmori-italic";
+    color: white;
+}
+
 .ya-menu-link-color {
     color: var(--ya-link-color);
 }
+
+.ya-footer {
+    color: var(--ya-link-color);
+}
+
+
+.footer-button {
+    color: white;
+    background-color: var(--ya-link-color);
+}
+

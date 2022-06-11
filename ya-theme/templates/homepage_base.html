@@ -1,6 +1,8 @@
-{% import 'language_selector.j2' as language_selectors %}
-
 {% extends "base.html" %}
+
+{% import 'language_selector.j2' as language_selectors %}
+{% import 'footer.j2' as footers %}
+{% import 'navigation.j2' as navigations %}
 
 {% block head %}
 <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/homepage.css" />
@@ -9,10 +11,6 @@
 {% set language = article.title %}
 
 {% block body %}
-
-{% macro get_navigation_link(title_dict, link) %}
-    <a href="{{ SITEURL }}/{{ link }}{% if language == "en" %}{{ "/en" }}{% endif %}" class="ya-menu-link">{{ title_dict[language] }}</a>
-{% endmacro %}
 
 <!-- HEADER -->
 <div class="container ya-header ml-0 mt-0 mr-0 pl-0 pt-0 pr-0 mb-4 is-fluid">
@@ -75,7 +73,7 @@
                 <div class="dropdown-content">
                     {% for title_dict, link in MENU_ITEM_LIST %}
                     <div class="dropdown-item">
-                        {{ get_navigation_link(title_dict, link) }}
+                        {{ navigations.get_navigation_link(title_dict, link, language) }}
                     </div>
                     {% endfor %}
                 </div>
@@ -98,7 +96,7 @@
                     {% for title_dict, link in MENU_ITEM_LIST %}
                     <li class="p-0 m-0">
                         <p class="is-size-4-widescreen">
-                        {{ get_navigation_link(title_dict, link) }}
+                        {{ navigations.get_navigation_link(title_dict, link, language) }}
                         </p>
                     </li>
                     {% endfor %}
@@ -120,6 +118,7 @@
 
 
 <!-- FOOTER -->
+{{ footers.get_footer(language) }}
 
 <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/homepage.js"></script>
 

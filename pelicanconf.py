@@ -34,10 +34,13 @@ MENU_ITEM_LIST = [
     [{"de": "karten", "en": "maps"}, "maps"],
     [{"de": "tickets", "en": "tickets"}, "tickets"],
     [{"de": "team", "en": "team"}, "team"],
-    # ["impressum", "impressum"],
-    # ["datenschutz", "datenschutz"],
-    # ["förderer", "sponsors"],
 ]
 
-TAGS_SAVE_AS = ''
-TAG_SAVE_AS = ''
+FOOTER_ITEM_LIST = [
+    [{"de": "impressum", "en": "impressum"}, "impressum"],
+    [{"de": "datenschutz", "en": "datenschutz"}, "datenschutz"],
+    [{"de": "förderer", "en": "sponsors"}, "sponsors"],
+]
+
+TAGS_SAVE_AS = ""
+TAG_SAVE_AS = ""

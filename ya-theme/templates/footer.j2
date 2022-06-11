@@ -1,0 +1,21 @@
+{% import 'navigation.j2' as navigations %}
+
+{% set FOOTER_ITEM_LIST = [
+    [{"de": "impressum", "en": "impressum"}, "impressum"],
+    [{"de": "datenschutz", "en": "datenschutz"}, "datenschutz"],
+    [{"de": "förderer", "en": "sponsors"}, "sponsors"],
+] %}
+
+{% macro get_footer(language) %}
+<div class="columns is-centered ya-footer">
+    <div class="column"></div>
+    <div class="column">
+        {% for title_dict, link in FOOTER_ITEM_LIST %}
+            <button class="button is-rounded footer-button">
+                {{ navigations.get_navigation_link(title_dict, link, language, true, "ya-footer-link") }}
+            </button>
+        {% endfor %}
+    </div>
+    <div class="column"></div>
+</div>
+{% endmacro %}

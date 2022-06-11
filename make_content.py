@@ -58,6 +58,11 @@ date: 11.06.2022
 PAGE_TUPLE = (
     Page("maps", "maps", ""),
     Page("artists", "homepage", ""),
+    Page("tickets", "homepage", ""),
+    Page("team", "homepage", ""),
+    Page("impressum", "homepage", ""),
+    Page("datenschutz", "homepage", ""),
+    Page("sponsors", "homepage", ""),
     # XXX: This is the english index page.
     Page("/", "index", "", render_german=False),
 )

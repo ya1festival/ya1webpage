@@ -1,0 +1,14 @@
+#index-page-container {
+    background-image: url("/theme/images/index_page_background_scaled.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.full-image img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}

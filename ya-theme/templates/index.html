@@ -1,59 +1,73 @@
 {% extends "base.html" %}
 
-{% block content %}
 
-<section id="content">
-  <div style="display:inline-block;vertical-align:bottom;">
-  </div>
-  <img src="\theme\images\logo_dummi_erk.png" width="300" height="300" >
-  <div style="display:inline-block;">
-    <pre>
-   Unterschiedliche Vertreter:innen von räumlich und
-   zeitlich getrennter avancierter Musiktraditionen
-   innerhalb der in ihrer Tradition angemessenen
-   Aufführungsbedingungen performen Yet Another¹.
-    </pre>
-  </div>
+{% block head %}
+<link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/index.css" />
+{% endblock head %}
 
-    <ul class="inline-ul">
-        <li class="inline-li">06. August 2022</li>
-        <li class="inline-li">Essen</li>
-        <li class="inline-li">10 - 22 Uhr</li>
-    </ul>
+{% block body %}
 
-    <pre>
-      <div style="text-align:center""text-align:center"
-      </div>
-      Neue Musik wird in diesem Kontext eine Musiktradition
-      unter vielen. Im Sinne eines postkolonialen Diskurs' soll
-      die Begriffe des Zeitgenössischen und des universal
-      verstandenen Fortschritts in Frage gestellt und
-      neu interpretiert werden.
-     </pre>
+<div class="container p-0 m-0" id="index-page-container">
+    <div class="columns is-sticky">
+        <div class="column is-one-third"></div>
+        <div class="column is-one-third full-image">
+                <img src="/theme/images/ya_logo_scaled.png">
+        </div>
+        <div class="column is-one-third"></div>
+    </div>
 
-    <hr>
-    <hr>
+    <div class="columns">
+        <div class="column is-one-third"></div>
+        <div class="column is-one-third"></div>
+        <div class="column is-one-third">
+            <p class="ya-text">
+            im sinne eines postkolonialen diskurs soll
+            unterschiedliche verterer:innen von raeumlich und zeitlich getrennter avancierter
+            musiktraditionen innherlab
+            innerhalb der in ihrer tradition angemessenen auffuehreungsbedingungen.
+            </p>
+        </div>
+    </div>
 
-    <h2>ya¹ day festival for contemporary music</h2>
-    <ul class="inline-ul">
-        <li class="inline-li">06. August 2022</li>
-        <li class="inline-li">Essen</li>
-        <li class="inline-li">10 AM - 10 PM</li>
-    </ul>
+    <div class="columns">
+        <div class="column is-half"></div>
+        <div class="column">
+            <figure class="image is-2by1">
+                <img src="/theme/images/1font_ya1_erk.png">
+            </figure>
+        </div>
+    </div>
 
-    <p>
-    In the "ya¹ day festival for contemporary music", different representatives of spatially and temporally separated advanced musical traditions perform within the performance conditions appropriate to their tradition.
-    In this context, eurological New Music becomes one musical tradition among many.
-    In the sense of a postcolonial discourse, the concepts of contemporaneity and universally understood progress are thus to be questioned and reinterpreted.
-    In order not to arbitrarily string together different traditions, the festival will take place under the overarching catchword "drone".
-    Specifically, concerts from the traditions of dhrupad, the Notre Dame school, eurological New Music, Scottish Pibroch and electronic music are intended.
-    </p>
+    <div class="columns pl-4 ml-6">
+        <div class="column">
+            <p class="ya-text">
+            im sinne eines postkolonialen diskurs soll
+            unterschiedliche verterer:innen von raeumlich und zeitlich getrennter avancierter
+            musiktraditionen innherlab
+            innerhalb der in ihrer tradition angemessenen auffuehreungsbedingungen.
+            </p>
+        </div>
+        <div class="column is-three-fifths"></div>
+    </div>
 
-    <p>
-    ¹tagesfestival
-    </p>
+    <div class="columns mb-0 pb-0">
+        <div class="column is-half"></div>
+        <div class="column">
+            <figure class="image is-2by1">
+                <img src="/theme/images/2font_ya1_erk_cropped.png">
+            </figure>
+        </div>
+    </div>
 
+    <div class="columns mt-0 pt-0">
+        <div class="column"></div>
+        <div class="column is-three-fifths">
+            <figure class="image is-2by1">
+                <img src="/theme/images/3font_ya1_erk.png">
+            </figure>
+        </div>
+    </div>
 
-</section>
+</div>
 
-{% endblock content %}
+{% endblock body %}

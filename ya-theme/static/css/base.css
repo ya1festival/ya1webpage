@@ -1,3 +1,10 @@
+:root {
+  --ya-header-color: #FCF698;
+  --ya-link-color: #B45B5B;
+  --ya-text-color: #6666FF;
+  --ya-text-color-salmon: #F2C7C7;
+}
+
 @font-face {
     font-family: "ppmori";
     src: url('/theme/font/pp_mori/PPMori-SemiBold.otf');
@@ -6,10 +13,20 @@
 @font-face {
     font-family: "ppmori-italic";
     src: url('/theme/font/pp_mori/PPMori-SemiBoldItalic.otf');
+}
 
 body {
-  background-image: url("/theme/images/index_bckgmoss_ya_erk.jpg");
-  font-family: "ppmori";
-    font-size: 200%;
-    color: #B45B5B;
-  }
+    font-family: "ppmori";
+}
+
+.is-sticky {
+    position: sticky;
+    vertical-align: top;
+    top: 0;
+    bottom: 0;
+    max-height: 100vh;
+}
+
+.ya-text {
+    color: var(--ya-text-color);
+}

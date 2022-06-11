@@ -1,32 +1,7 @@
-@font-face {
-    font-family: "ppmori";
-    src: url('/theme/font/pp_mori/PPMori-SemiBold.otf');
-}
-
-@font-face {
-    font-family: "ppmori-italic";
-    src: url('/theme/font/pp_mori/PPMori-SemiBoldItalic.otf');
-}
-
-body {
-    font-family: "ppmori";
-}
-
-
-.navigation-link {
-    font-size: 120%;
-    color: #B45B5B;
-}
-
-.navigation-link:hover {
-    color: #B45B5B;
-    font-family: "ppmori-italic";
-}
-
 .rotate {
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    color: #FCF698;
+    color: var(--ya-header-color);
 }
 
 .vertical {
@@ -35,7 +10,7 @@ body {
 }
 
 .ya-navigation-bar {
-    background-image: url("/images/moss_erk_sliced.jpg");
+    background-image: url("/theme/images/moss_erk_sliced.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -43,7 +18,7 @@ body {
 }
 
 .ya-menu-button {
-    background-image: url("/images/moss_erk.JPG");
+    background-image: url("/theme/images/moss_erk.JPG");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -52,7 +27,7 @@ body {
 
 
 .ya-header  {
-    background-image: url("/images/yllwmoss_ya1_erk_resized.png");
+    background-image: url("/theme/images/yllwmoss_ya1_erk_resized.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -100,13 +75,6 @@ body {
     padding: 3vh;
 }
 
-.is-sticky {
-    position: sticky;
-    vertical-align: top;
-    max-height: 100vh;
-    top: 0;
-    bottom: 0;
-}
 
 #ya-menu {
     width: 30vh;
@@ -128,18 +96,15 @@ body {
 
 
 .menu-list a {
-    color: #B45B5B;
+    color: var(--ya-link-color);
 }
 
 .menu-list a:hover {
     background-color: rgba(0, 0, 0, 0);
     font-family: "ppmori-italic";
-    color: #B45B5B;
+    color: var(--ya-link-color);
 }
 
-:root {
-  --ya-link-color: #B45B5B;
-}
 
 .ya-menu-link {
     color: var(--ya-link-color);
@@ -148,7 +113,7 @@ body {
 .ya-menu-link:hover {
     background-color: rgba(0, 0, 0, 0);
     font-family: "ppmori-italic";
-    color: #B45B5B;
+    color: var(--ya-link-color);
 }
 
 .ya-menu-link-color {
@@ -164,10 +129,12 @@ body {
     height: auto;
 }
 
-.time-and-space {
-    color: #fad2d2;
+
+.is-max-height-view-point {
+    max-height: 100vh;
 }
 
-.ya-text {
-    color: #2b7cd8;
+
+.time-and-space {
+    color: var(--ya-text-color);
 }

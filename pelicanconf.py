@@ -2,15 +2,15 @@
 # -*- coding: utf-8 -*- #
 
 AUTHOR = "Levin Eric Zimmermann & Roberto Maxwell Beseler"
-SITENAME = "ya¹ day festival for contemporary music"
-# SITEURL = 'https://ya-festival.org'
+SITENAME = "ya¹ Tagesfestival für aktuelle Musik"
+# SITEURL = 'https://www.ya-festival.org'
 SITEURL = ""
 
 PATH = "content"
 
 TIMEZONE = "Europe/Berlin"
 
-DEFAULT_LANG = "en"
+DEFAULT_LANG = "de"
 
 # Blogroll
 LINK_LIST = [
@@ -26,17 +26,18 @@ SOCIAL = [
 DEFAULT_PAGINATION = 10
 
 THEME = "ya-theme/"
-# CSS_FILE = "main.css"
 
 # Title / Link
 MENU_ITEM_LIST = [
     ["1", "/"],
-    ["performer:innen", "artists"],
-    ["maps", "maps"],
-    ["tickets", "tickets"],
-    ["team", "team"],
-    ["gallery", "gallery"],
-    ["impressum", "impressum"],
-    ["datenschutz", "datenschutz"],
-    ["förderer", "sponsors"],
+    [{"de": "performer:innen", "en": "artists"}, "artists"],
+    [{"de": "karten", "en": "maps"}, "maps"],
+    [{"de": "tickets", "en": "tickets"}, "tickets"],
+    [{"de": "team", "en": "team"}, "team"],
+    # ["impressum", "impressum"],
+    # ["datenschutz", "datenschutz"],
+    # ["förderer", "sponsors"],
 ]
+
+TAGS_SAVE_AS = ''
+TAG_SAVE_AS = ''

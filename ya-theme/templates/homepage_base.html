@@ -43,6 +43,7 @@
                 {% endblock %}
             </p>
         </div>
+        <div class="column is-one-fifth"></div>
     </div>
     <div class="columns mt-0 pt-0">
         <div class="column">
@@ -73,7 +74,7 @@
                 <div class="dropdown-content">
                     {% for title_dict, link in MENU_ITEM_LIST %}
                     <div class="dropdown-item">
-                        {{ navigations.get_navigation_link(title_dict, link, language) }}
+                        {{ navigations.get_navigation_link(title_dict, link, language, SITEURL) }}
                     </div>
                     {% endfor %}
                 </div>
@@ -96,7 +97,7 @@
                     {% for title_dict, link in MENU_ITEM_LIST %}
                     <li class="p-0 m-0">
                         <p class="is-size-4-widescreen">
-                        {{ navigations.get_navigation_link(title_dict, link, language) }}
+                        {{ navigations.get_navigation_link(title_dict, link, language, SITEURL) }}
                         </p>
                     </li>
                     {% endfor %}
@@ -118,7 +119,7 @@
 
 
 <!-- FOOTER -->
-{{ footers.get_footer(language) }}
+{{ footers.get_footer(language, SITEURL) }}
 
 <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/homepage.js"></script>
 

@@ -1,4 +1,11 @@
-{% macro get_navigation_link(title_dict, link, language, use_upper=false, class="ya-menu-link") %}
+{% macro get_navigation_link(
+    title_dict,
+    link,
+    language,
+    site_url,
+    use_upper=false,
+    class="ya-menu-link"
+) %}
 
     {% set content = title_dict[language] %}
 
@@ -6,7 +13,12 @@
         {% set content = content|upper %}
     {% endif %}
 
-    <a href="{{ SITEURL }}/{{ link }}{% if language == "en" %}{{ "/en" }}{% endif %}" class={{ class }}>
+    {% set href = site_url + "/" + link %} 
+    {% if language == "en" %}
+        {% set href = href + "/en" %} 
+    {% endif %}
+
+    <a href="{{ href }}" class={{ class }}>
         {{ content }}
     </a>
 

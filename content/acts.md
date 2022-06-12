@@ -1,4 +1,4 @@
-title: en
+title: de
 template: homepage
-Slug: artists/en
+Slug: acts
 date: 11.06.2022

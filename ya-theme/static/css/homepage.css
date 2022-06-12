@@ -9,6 +9,7 @@
     text-orientation: upright;
 }
 
+/*
 .ya-navigation-bar {
     background-image: url("/theme/images/moss_erk_sliced.jpg");
     -webkit-background-size: cover;
@@ -16,6 +17,7 @@
     -o-background-size: cover;
     background-size: cover;
 }
+*/
 
 .ya-menu-button {
     background-image: url("/theme/images/moss_erk.JPG");
@@ -123,4 +125,8 @@
 
 .time-and-space {
     color: var(--ya-text-color-salmon);
+}
+
+.team-table {
+    width: 100%;
 }

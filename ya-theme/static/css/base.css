@@ -33,6 +33,11 @@ body {
     text-align-last: justify;
 }
 
+.ya-table-text {
+    color: var(--ya-text-color);
+    text-align: left !important;
+}
+
 .ya-menu-link {
     color: var(--ya-link-color);
 }
@@ -66,3 +71,13 @@ body {
     background-color: var(--ya-link-color);
 }
 
+
+.ya-text-link {
+    color: var(--ya-text-color);
+}
+
+.ya-text-link:hover {
+    background-color: rgba(0, 0, 0, 0);
+    font-family: "ppmori-italic";
+    color: var(--ya-text-color);
+}

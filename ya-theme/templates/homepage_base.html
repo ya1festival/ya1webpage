@@ -87,7 +87,7 @@
         </div>
     </div>
     <!-- Sticky sidebar for everything bigger than mobile. -->
-    <div class="columns is-variable is-hidden-mobile sidebar ya-navigation-bar is-gapless">
+    <div class="columns is-variable is-hidden-mobile sidebar is-gapless">
         <div class="column is-three-fifths is-hidden-overflow-x mr-0 pr-0">
             <div class="container p-0 m-0">
                 <span style="white-space: nowrap;" class="rotate is-size-1-fullhd is-size-1-widescreen-only is-size-1-desktop-only is-size-1-tablet-only is-size-1">
@@ -96,7 +96,7 @@
                 </span>
             </div>
         </div>
-        <div class="column is-sticky is-max-height-view-point ml-0 pl-0" id="ya-menu">
+        <div class="column is-sticky is-max-height-view-point ml-0 pl-0 mr-0 pr-0" id="ya-menu">
             <nav class="menu p-0 ml-0 mt-6 pt-6">
                 <ul style="line-height: 1vh;" class="menu-list p-0 m-0">
                     {% for title_dict, link in MENU_ITEM_LIST %}
@@ -108,6 +108,9 @@
                     {% endfor %}
                 </ul>
             </nav>
+        </div>
+        <div class="column ml-0 pl-0">
+            <img id="sliced-sidebar-image" src="/theme/images/moss_erk_sliced.png">
         </div>
     </div> 
     <!-- Page content -->

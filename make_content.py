@@ -57,7 +57,7 @@ PAGE_TUPLE = (
     Page("maps", "maps", ""),
     Page("artists", "homepage", ""),
     Page("tickets", "homepage", ""),
-    Page("team", "homepage", ""),
+    Page("team", "team", ""),
     Page("impressum", "homepage", ""),
     Page("datenschutz", "homepage", ""),
     Page("sponsors", "homepage", ""),

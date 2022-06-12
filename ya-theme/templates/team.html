@@ -1,0 +1,55 @@
+{% extends "team_base.html" %}
+
+{% set name_list = [
+    [["roberto beseler maxwell", "https://robertobeselermaxwell.com/"], ["levin eric zimmermann", "https://levinericzimmermann.eu/"]],
+    [["ericka manuel villatoro guzmán", none]],
+    [["theo voerste", "https://theovoerste.bandcamp.com"], ["tim pauli", "https://timpauli.net"]],
+    [["jimmy", ""]],
+    [["hanna fink",""], ["tamon yashima", "https://www.tamonyashima.de/"]],
+    [["roman pfeifer", "https://romanpfeifer.de"]],
+] %}
+
+{% if language == "de" %}
+    {% set role_list = [
+        "künstlerische leitung:",
+        "graphische gestaltung:",
+        "tontechnik:",
+        "support:",
+        "beratung:",
+        "besonderer dank:",
+    ] %}
+{% else %}
+    {% set role_list = [
+        "künstlerische leitung:",
+        "graphische gestaltung:",
+        "tontechnik:",
+        "support:",
+        "beratung:",
+        "besonderer dank:",
+    ] %}
+{% endif %}
+
+{% block content %}
+<table class="team-table">
+{% for role in role_list %}
+{% set name_list = name_list[loop.index - 1] %}
+<tr class="ya-table-text is-size-5">
+    <td class="pr-5">{{ role }}</td>
+    <td class="pl-5">
+        {% set name_counter = name_list|length %}
+        {% for name, link in name_list %}
+            {% if link is not none and link != "" %}
+                <a href="{{ link }}" class="ya-text-link">{{ name }}</a>
+            {% else %}
+                {{ name }}
+            {% endif %}
+            {% if name_counter != loop.index %}
+                {{ "&" }}
+            {% endif %}
+        {% endfor %}
+    </td>
+</tr>
+{% endfor %}
+</table>
+
+{% endblock %}

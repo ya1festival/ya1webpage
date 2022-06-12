@@ -33,9 +33,9 @@
 <table class="team-table">
 {% for role in role_list %}
 {% set name_list = name_list[loop.index - 1] %}
-<tr class="ya-table-text is-size-5">
-    <td class="pr-5">{{ role }}</td>
-    <td class="pl-5">
+<tr class="ya-table-text is-size-5-widescreen">
+    <td class="pr-5 pb-2 pt-2">{{ role }}</td>
+    <td class="pl-5 pb-2 pt-2">
         {% set name_counter = name_list|length %}
         {% for name, link in name_list %}
             {% if link is not none and link != "" %}

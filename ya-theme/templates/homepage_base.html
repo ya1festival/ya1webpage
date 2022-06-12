@@ -17,7 +17,7 @@
 {% endmacro %}
 
 <!-- HEADER -->
-<div class="container ya-header ml-0 mt-0 mr-0 pl-0 pt-0 pr-0 mb-4 is-fluid">
+<div class="container ya-header ml-0 mt-0 mr-0 pl-0 pt-0 pr-0 mb-1 is-fluid">
     <div class="columns mt-0 pt-0"></div>
     <div class="container has-text-right pr-4 mr-4">
         {{ language_selectors.get_language_selector(language, SITEURL + "/" + article.slug) }}
@@ -63,9 +63,9 @@
 </div>
 
 <!-- BLOCK -->
-<div class="columns is-fluid">
+<div class="columns is-fluid mt-0 pt-0">
     <!-- Dropdown menu for phones -->
-    <div class="column is-hidden-tablet">
+    <div class="column is-hidden-tablet mt-0 pt-0">
         <div class="dropdown">
             <div class="dropdown-trigger">
                 <button class="button is-large ya-menu-button" aria-haspopup="true" aria-controls="dropdown-menu">

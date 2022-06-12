@@ -11,7 +11,7 @@
     <div class="column"></div>
     <div class="column">
         {% for title_dict, link in FOOTER_ITEM_LIST %}
-            <button class="button is-rounded footer-button">
+            <button class="button is-rounded is-responsive footer-button">
                 {{ navigations.get_navigation_link(title_dict, link, language, site_url, true, "ya-footer-link") }}
             </button>
         {% endfor %}

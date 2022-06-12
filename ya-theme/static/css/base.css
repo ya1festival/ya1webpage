@@ -29,6 +29,8 @@ body {
 
 .ya-text {
     color: var(--ya-text-color);
+    text-align: justify !important;
+    text-align-last: justify;
 }
 
 .ya-menu-link {

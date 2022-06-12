@@ -12,6 +12,10 @@
 
 {% block body %}
 
+{% macro get_time_and_space_classes() %}
+{{ "column time-and-space is-size-4 is-size-3-desktop-only is-size-3-widescreen-only is-size-2-fullhd has-text-right" }}
+{% endmacro %}
+
 <!-- HEADER -->
 <div class="container ya-header ml-0 mt-0 mr-0 pl-0 pt-0 pr-0 mb-4 is-fluid">
     <div class="columns mt-0 pt-0"></div>
@@ -36,7 +40,7 @@
                 <img id="be-there" src="/theme/images/be_there_compressed.png">
             </figure>
         </div>
-        <div class="column time-and-space is-size-1 has-text-right">
+        <div class="{{ get_time_and_space_classes() }}">
             <p class="pb-0 mb-0">06.08.2022</p>
             <p class="pt-0 mt-0 pb-0 mb-0">
                 {% block time %}
@@ -48,12 +52,13 @@
     <div class="columns mt-0 pt-0">
         <div class="column">
         </div>
-        <div class="column time-and-space is-size-1">
+        <div class="{{ get_time_and_space_classes() }}">
             <p>
             {% block location %}
             {% endblock %}
             </p>
         </div>
+        <div class="column is-one-fifth"></div>
     </div>
 </div>
 

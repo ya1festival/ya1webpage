@@ -28,10 +28,8 @@
 
 .ya-header  {
     background-image: url("/theme/images/yllwmoss_ya1_erk_resized.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-repeat: no-repeat;
+      background-size: contain;
     padding-bottom: 16vh;
 }
 
@@ -110,8 +108,10 @@
     /*
     margin-top: 20vh;
     margin-left: 51vh;
+    width: 50%;
+    height: auto;
     */
-    width: 50vh;
+    width: 40vh;
     height: auto;
 }
 

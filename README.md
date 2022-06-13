@@ -29,3 +29,10 @@ bash scripts/deploy.sh
 ```powershell
 .\scripts\deploy.ps1
 ```
+
+Then switch to `gh-pages` branch and push to remote:
+
+```sh
+git switch gh-pages
+git push origin gh-pages
+```

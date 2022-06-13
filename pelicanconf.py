@@ -3,8 +3,8 @@
 
 AUTHOR = "Levin Eric Zimmermann & Roberto Maxwell Beseler"
 SITENAME = "ya¹ Tagesfestival für aktuelle Musik"
-# SITEURL = 'https://www.ya-festival.org'
-SITEURL = "http://127.0.0.1:8000"
+SITEURL = 'https://www.ya-festival.org'
+# SITEURL = "http://127.0.0.1:8000"
 
 PATH = "content"
 

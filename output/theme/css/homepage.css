@@ -1,0 +1,137 @@
+.rotate {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    color: var(--ya-header-color);
+}
+
+.vertical {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+/*
+.ya-navigation-bar {
+    background-image: url("/theme/images/moss_erk_sliced.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+*/
+
+.ya-menu-button {
+    background-image: url("/theme/images/moss_erk.JPG");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.ya-header  {
+    background-image: url("/theme/images/yllwmoss_ya1_erk_resized.png");
+    background-repeat: no-repeat;
+      background-size: contain;
+    padding-bottom: 16vh;
+}
+
+
+.fixed {
+    position: fixed;
+    width: 25%;
+}
+.scrollit {
+    float: right;
+    width: 71%
+}
+
+@media screen and (min-width: 1408px) {
+    .is-size-1-fullhd {
+        font-size: 9rem !important;
+    }
+}
+
+
+@media screen and (min-width: 1216px) and (max-width: 1407px) {
+    .is-size-1-widescreen-only {
+        font-size: 7rem !important;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1215px) {
+    .is-size-1-desktop-only {
+        font-size: 6rem !important;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+    .is-size-1-tablet-only {
+        font-size: 3rem !important;
+    }
+}
+
+
+.sidebar {
+    padding: 3vh;
+}
+
+
+#ya-menu {
+    width: 30vh;
+}
+
+
+.is-auto-overflow-y {
+    overflow-y: hidden !important;
+}
+
+.is-hidden-overflow-x {
+    overflow-x: hidden !important;
+}
+
+
+.is-hidden-overflow-y {
+    overflow-y: hidden !important;
+}
+
+
+.menu-list a {
+    color: var(--ya-link-color);
+}
+
+.menu-list a:hover {
+    background-color: rgba(0, 0, 0, 0);
+    font-family: "ppmori-italic";
+    color: var(--ya-link-color);
+}
+
+
+#be-there {
+    /*
+    margin-top: 20vh;
+    margin-left: 51vh;
+    width: 50%;
+    height: auto;
+    */
+    width: 40vh;
+    height: auto;
+}
+
+#sliced-sidebar-image {
+    width: auto;
+    height: 100%;
+}
+
+
+.is-max-height-view-point {
+    max-height: 100vh;
+}
+
+
+.time-and-space {
+    color: var(--ya-text-color-salmon);
+}
+
+.team-table {
+    width: 100%;
+}

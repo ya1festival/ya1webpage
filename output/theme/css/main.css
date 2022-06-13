@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "ppmori";
+  src: url('"fonts/pp_mori/PPMori-SemiBold.otf"');
+  src: url('fonts/pp_mori/PPMori-SemiBoldItalic.otf') format('embedded-opentype'),
+}
+
+body {
+  background-image: url("static/bild/moss_erk.JPG");
+  font-family: "Times New Roman", Times, serif;
+}

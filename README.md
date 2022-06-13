@@ -18,6 +18,8 @@ bash scripts/setup-venv.sh
 
 ## Deploy content to github:
 
+Don't forget to change `SITEURL` variable in `pelicanconf.py` to `https://www.ya-festival.org` before deployment.
+
 ### Linux
 
 ```sh

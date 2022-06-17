@@ -30,7 +30,8 @@ body {
 .ya-text {
     color: var(--ya-text-color);
     text-align: justify !important;
-    text-align-last: justify;
+    /* text-align-last: justify; */
+    text-align-last: left;
 }
 
 .ya-table-text {

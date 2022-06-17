@@ -1,10 +1,12 @@
 {% extends "team_base.html" %}
 
+{% set language = article.title %}
+
 {% set name_list = [
     [["roberto beseler maxwell", "https://robertobeselermaxwell.com/"], ["levin eric zimmermann", "https://levinericzimmermann.eu/"]],
     [["ericka manuel villatoro guzmán", none]],
     [["theo voerste", "https://theovoerste.bandcamp.com"], ["tim pauli", "https://timpauli.net"]],
-    [["jimmy", ""]],
+    [["jimmy fauth", ""]],
     [["hanna fink",""], ["tamon yashima", "https://www.tamonyashima.de/"]],
     [["roman pfeifer", "https://romanpfeifer.de"]],
 ] %}
@@ -16,16 +18,16 @@
         "tontechnik:",
         "support:",
         "beratung:",
-        "besonderer dank:",
+        "besonderer dank an:",
     ] %}
 {% else %}
     {% set role_list = [
-        "künstlerische leitung:",
-        "graphische gestaltung:",
-        "tontechnik:",
+        "artistic direction:",
+        "graphic design:",
+        "sound enginners:",
         "support:",
-        "beratung:",
-        "besonderer dank:",
+        "consulting:",
+        "special thanks:",
     ] %}
 {% endif %}
 

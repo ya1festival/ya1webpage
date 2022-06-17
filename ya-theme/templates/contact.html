@@ -1,0 +1,29 @@
+{% extends "homepage.html" %}
+
+
+{% set language = article.title %}
+
+{% if language == "de" %}
+    {% set role_list = [
+        "für generelle anfragen & presse:",
+        "für bookinganfragen:",
+    ] %}
+{% else %}
+    {% set role_list = [
+        "for general inquires & press:",
+        "for booking requests:",
+    ] %}
+{% endif %}
+
+{% block content %}
+<table class="team-table">
+{% for mail in ["info@ya-festival.org", "booking@ya-festival.org"] %}
+{% set role = role_list[loop.index - 1] %}
+<tr class="ya-table-text is-size-5-widescreen">
+    <td class="pr-5 pb-2 pt-2">{{ role }}</td>
+    <td class="pl-5 pb-2 pt-2">{{ mail }}</td>
+</tr>
+{% endfor %}
+</table>
+
+{% endblock %}

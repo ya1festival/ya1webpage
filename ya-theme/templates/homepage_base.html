@@ -5,7 +5,7 @@
 {% import 'navigation.j2' as navigations %}
 
 {% block head %}
-<link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/homepage.css" />
+<link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/homepage.css"/>
 {% endblock head %}
 
 {% set language = article.title %}
@@ -116,7 +116,7 @@
     <!-- Page content -->
     <div class="column">
         <section class="section">
-            <div class="container">
+            <div class="container" id="content">
                 {% block content %}
                 {{ article.content }}
                 {% endblock %}

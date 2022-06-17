@@ -3,8 +3,8 @@
 
 AUTHOR = "Levin Eric Zimmermann & Roberto Maxwell Beseler"
 SITENAME = "ya¹ Tagesfestival für aktuelle Musik"
-SITEURL = 'https://ya-festival.org'
-# SITEURL = "http://127.0.0.1:8000"
+# SITEURL = 'https://ya-festival.org'
+SITEURL = "http://127.0.0.1:8000"
 
 PATH = "content"
 
@@ -31,10 +31,11 @@ THEME = "ya-theme/"
 # XXX: Footer links are directly defined in 'footer.j2'
 MENU_ITEM_LIST = [
     [{"de": "1", "en": "1"}, ""],
-    [{"de": "acts", "en": "acts"}, "acts"],
     [{"de": "karten", "en": "maps"}, "maps"],
+    [{"de": "acts", "en": "acts"}, "acts"],
     [{"de": "tickets", "en": "tickets"}, "tickets"],
     [{"de": "team", "en": "team"}, "team"],
+    [{"de": "kontakt", "en": "contact"}, "contact"],
 ]
 
 TAGS_SAVE_AS = ""

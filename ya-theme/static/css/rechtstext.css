@@ -1,0 +1,28 @@
+
+#content h1 {
+    font-size: 4vh;
+}
+
+
+#content h2 {
+    font-size: 3vh;
+}
+
+
+#content h3 {
+    font-size: 2vh;
+}
+
+#content strong {
+    color: var(--ya-text-color);
+}
+
+.rechtsul {
+  list-style-type: upper-roman;
+}
+
+#content {
+    color: var(--ya-text-color);
+    text-align: justify !important;
+    text-align-last: left;
+}

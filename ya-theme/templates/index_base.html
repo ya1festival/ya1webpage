@@ -24,7 +24,9 @@
     <div class="columns is-sticky">
         <div class="column is-one-third"></div>
         <div class="column is-one-third full-image">
-            <img class="zoom-on-hover" src="/theme/images/ya_logo_scaled.png">
+                <a href="{{ navigations.get_navigation_url(SITEURL, "maps", language) }}">
+                    <img class="zoom-on-hover" src="/theme/images/ya_logo_scaled.png">
+                </a>
         </div>
         <div class="column is-one-third"></div>
     </div>
@@ -33,7 +35,7 @@
         <div class="column is-one-third"></div>
         <div class="column is-one-third"></div>
         <div class="column is-one-third">
-            <p class="ya-text is-size-3-widescreen">
+            <p class="ya-text">
             {% block text0 %}
             {% endblock %}
             </p>

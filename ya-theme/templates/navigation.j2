@@ -1,9 +1,9 @@
 {% macro get_navigation_url(site_url, link, language) %}
-    {% set href = site_url + "/" + link %} 
-    {% if language == "en" %}
-        {% set href = href + "/en" %} 
-    {% endif %}
-    {{ href }}
+    {%- set href = site_url + "/" + link -%} 
+    {%- if language == "en" -%}
+        {% set href = href + "/en" -%} 
+    {%- endif -%}
+    {{- href -}}
 {% endmacro %}
 
 {% macro get_navigation_link(
@@ -22,7 +22,7 @@
     {% endif %}
 
     <a href="{{ get_navigation_url(site_url, link, language) }}" class={{ class }}>
-        {{ content }}
+        {{- content -}}
     </a>
 
 {% endmacro %}

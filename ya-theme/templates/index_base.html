@@ -78,7 +78,17 @@
             </figure>
         </div>
     </div>
-
 </div>
+
+<script>
+document.body.addEventListener(
+    'click',
+    function(){
+        window.location.href = "{{- navigations.get_navigation_url(SITEURL, "maps", language) -}}";
+    },
+    true
+);
+</script>
+
 
 {% endblock body %}

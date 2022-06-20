@@ -39,16 +39,18 @@
     <div class="column"></div>
 </div>
 
-<div class="columns is-centered ya-footer is-fluid">
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column">
-        {% for link_name, link in LINK_LIST %}
-            {{ make_footer_button(make_social_media_link(link_name, link)) }}
-        {% endfor %}
-        {% for title_dict, link in FOOTER_ITEM_LIST %}
-            {{ make_footer_button(navigations.get_navigation_link(title_dict, link, language, site_url, true, "ya-footer-link")) }}
-        {% endfor %}
+<footer>
+    <div class="columns is-centered ya-footer is-fluid">
+        <div class="column"></div>
+        <div class="column"></div>
+        <div class="column">
+            {% for link_name, link in LINK_LIST %}
+                {{ make_footer_button(make_social_media_link(link_name, link)) }}
+            {% endfor %}
+            {% for title_dict, link in FOOTER_ITEM_LIST %}
+                {{ make_footer_button(navigations.get_navigation_link(title_dict, link, language, site_url, true, "ya-footer-link")) }}
+            {% endfor %}
+        </div>
     </div>
-</div>
+</footer>
 {% endmacro %}

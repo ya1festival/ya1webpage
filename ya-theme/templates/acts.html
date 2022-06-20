@@ -1,0 +1,60 @@
+{% extends "homepage.html" %}
+
+{% set language = article.title %}
+
+{% from 'act.j2' import make_artist %}
+
+{% block content %}
+
+<div class="container">
+    <div class="columns">
+        <div class="column">
+        </div>
+        <div class="column">
+            {% if language == "de" %}
+            {{ make_artist(
+                "virginia_nicoli",
+                "/theme/images/virginia_nicoli.jpg",
+                ["I. virgini nicoli", "erweckt", "gregorianik"],
+                "10 uhr",
+                "altroemische kirche essen",
+            ) }}
+            {% else %}
+            {{ make_artist(
+                "virginia_nicoli_en",
+                "/theme/images/virginia_nicoli.jpg",
+                ["I. virgini nicoli", "erweckt", "gregorianik"],
+                "10 uhr",
+                "altroemische kirche essen",
+            ) }}
+            {% endif %}
+        </div>
+    </div>
+    <div class="columns">
+        <div class="column">
+            {% if language == "de" %}
+            {{ make_artist(
+                "vox_nostra",
+                "/theme/images/Vox_Nostra_Hedwig035.jpeg",
+                ["III. vox nostra", "erweckt", "gregorianik"],
+                "17 uhr",
+                "mattheauskirche essen-borbeck",
+            ) }}
+            {% else %}
+            {{ make_artist(
+                "vox_nostra_en",
+                "/theme/images/Vox_Nostra_Hedwig035.jpeg",
+                ["III. vox nostra", "erweckt", "gregorianik"],
+                "5 pm",
+                "mattheauskirche essen-borbeck",
+            ) }}
+            {% endif %}
+        </div>
+        <div class="column">
+        </div>
+    </div>
+</div>
+
+<script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/modal.js"></script>
+
+{% endblock content %}

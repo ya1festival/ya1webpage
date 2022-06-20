@@ -56,7 +56,7 @@ date: 11.06.2022
 PAGE_TUPLE = (
     Page("contact", "contact", ""),
     Page("maps", "maps", ""),
-    Page("acts", "homepage", ""),
+    Page("acts", "acts", ""),
     Page("tickets", "homepage", ""),
     Page("team", "team", ""),
     Page("impressum", "impressum", ""),

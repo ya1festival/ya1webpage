@@ -1,0 +1,33 @@
+{% macro make_artist(act_id, img_url, description_text_list, time, venue) %}
+
+{% set modal_id = "modal_for_" + act_id %}
+{% set modal_content_path = "acts/" + act_id + ".html" %}
+
+<div class="modal" id="{{- modal_id -}}">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <button class="delete" aria-label="close"></button>
+    </header>
+    <section class="modal-card-body">
+        {% include modal_content_path %}
+    </section>
+  </div>
+</div>
+
+
+<img data-target="{{- modal_id -}}" class="js-modal-trigger grey-on-hover" src="{{- img_url -}}">
+
+<div class="columns pb-0 mb-0">
+{% for description_text in description_text_list %}
+    <div class="column">
+        <p class="ya-text">{{ description_text }}</p>
+    </div>
+{% endfor %}
+</div>
+
+<p class="ya-text">{{ time }}</p>
+<p class="ya-text">{{ venue }}</p>
+
+{% endmacro %}
+

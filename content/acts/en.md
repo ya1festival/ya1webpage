@@ -1,4 +1,4 @@
 title: en
-template: homepage
+template: acts
 Slug: acts/en
 date: 11.06.2022

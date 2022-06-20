@@ -13,14 +13,6 @@
     max-height: 100%;
 }
 
-.zoom-on-hover {
-    transform: scale(1);
-    transition: transform .2s; /* Animation */
-}
-
-.zoom-on-hover:hover {
-    transform: scale(1.5);
-}
 
 #index-page-list {
     display: block;

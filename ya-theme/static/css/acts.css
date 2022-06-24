@@ -72,3 +72,11 @@
     margin-right: auto;
     width: 50%;
 }
+
+.photo-copyright-note {
+    color: var(--ya-text-color);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

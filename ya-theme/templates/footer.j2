@@ -23,7 +23,7 @@
 {% macro get_footer(language, site_url) %}
 
 <div class="columns is-centered ya-footer is-fluid">
-    <div class="column"></div>
+    <div class="column is-one-fifth"></div>
     <div class="column">
         <p class="ya-text">
             {% if language == "de" %}
@@ -32,11 +32,36 @@
                 funded by
             {% endif %}
         </p>
-        {% for logo_file_name in ["KE_Logo_klein_05.jpg"] %}
-            <img src="/theme/images/{{ logo_file_name }}">
+        {% for logo_file_name, link in
+            [
+                ["KE_Logo_klein_05.jpg", "https://www.kulturstiftung-essen.de/"],
+                ["Logo-Kulturamt-Outline-schwarz-grau.jpg", "https://www.essen.de/leben/kultur_/ansprechpartner_.de.html"],
+                ["Sparkasse.jpeg", "https://www.sparkasse-essen.de/de/home.html"]
+            ]
+        %}
+            <figure class="image is-128x128 zoom-on-hover">
+                <a href="{{ url }}">
+                    <img src="/theme/images/{{ logo_file_name }}">
+                </a>
+            </figure>
         {% endfor %}
     </div>
-    <div class="column"></div>
+    <div class="column">
+        <p class="ya-text">
+            {% if language == "de" %}
+                in kooperation mit
+            {% else %}
+                in cooperation with
+            {% endif %}
+        </p>
+        {% for logo_file_name, url in [["GNMR_Logo.jpg", "https://www.gnmr.de/"]] %}
+            <figure class="image is-128x128 footer-logo zoom-on-hover">
+                <a href="{{ url }}">
+                    <img src="/theme/images/{{ logo_file_name }}">
+                </a>
+            </figure>
+        {% endfor %}
+    </div>
 </div>
 
 <footer>

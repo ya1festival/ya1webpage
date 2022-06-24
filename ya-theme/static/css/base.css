@@ -92,3 +92,8 @@ body {
 .zoom-on-hover:hover {
     transform: scale(1.5);
 }
+
+.footer-logo {
+    width: 500px;
+    height: auto;
+}

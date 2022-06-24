@@ -1,5 +1,10 @@
 {% extends "homepage.html" %}
 
+{% block head %}
+<link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/homepage.css"/>
+<link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/acts.css" />
+{% endblock head %}
+
 {% set language = article.title %}
 
 {% from 'act.j2' import make_artist %}
@@ -7,52 +12,119 @@
 {% block content %}
 
 <div class="container">
-    <div class="columns">
-        <div class="column">
-        </div>
-        <div class="column">
-            {% if language == "de" %}
-            {{ make_artist(
-                "virginia_nicoli",
-                "/theme/images/virginia_nicoli.jpg",
-                ["I. virgini nicoli", "erweckt", "gregorianik"],
-                "10 uhr",
-                "altroemische kirche essen",
-            ) }}
-            {% else %}
-            {{ make_artist(
-                "virginia_nicoli_en",
-                "/theme/images/virginia_nicoli.jpg",
-                ["I. virgini nicoli", "erweckt", "gregorianik"],
-                "10 uhr",
-                "altroemische kirche essen",
-            ) }}
-            {% endif %}
-        </div>
-    </div>
-    <div class="columns">
-        <div class="column">
-            {% if language == "de" %}
-            {{ make_artist(
+    {% for artist in [
+        [
+            make_artist(
+                    "virginia_nicoli",
+                    "/theme/images/artists/resized/virginia_nicoli.jpg",
+                    ["I. VIRGINI NICOLI", "SINGT", "DHRUPAD"],
+                    "10 uhr",
+                    "altkatholische friedenskirche, essen",
+                ),
+             make_artist(
+                    "virginia_nicoli",
+                    "/theme/images/artists/resized/virginia_nicoli.jpg",
+                    ["I. VIRGINI NICOLI", "SINGS", "DHRUPAD"],
+                    "10am",
+                    "altkatholische friedenskirche, essen",
+                )
+        ],
+        [
+            make_artist(
+                "callum_armstrong",
+                "/theme/images/artists/resized/callum_armstrong.jpg",
+                ["II. CALLUM ARMSTRONG", "SPIELT", "PIBROCH"],
+                "13 uhr",
+                "borbecker innenstadt",
+            ),
+            make_artist(
+                "callum_armstrong_en",
+                "/theme/images/artists/resized/callum_armstrong.jpg",
+                ["II. CALLUM ARMSTRONG", "PLAYS", "PIBROCH"],
+                "1pm",
+                "borbeck city",
+            )
+        ],
+        [
+            make_artist(
+                "johannes_winkler",
+                "/theme/images/artists/resized/johannes_winkler.png",
+                ["III. JOHANNES WINKLER", "DEKONSTRUIERT", "IN EINER LECTURE PERFORMANCE"],
+                "15 uhr",
+                "gemeindezentrum an der dreifaltigkeitskirche, essen",
+            ),
+            make_artist(
+                "johannes_winkler_en",
+                "/theme/images/artists/resized/johannes_winkler.png",
+                ["III. JOHANNES WINKLER", "DECONSTRUCTS", "IN A LECTURE PERFORMANCE"],
+                "3pm",
+                "community centre at dreifaltigkeitskirche, essen",
+            )
+        ],
+        [
+            make_artist(
                 "vox_nostra",
-                "/theme/images/Vox_Nostra_Hedwig035.jpeg",
-                ["III. vox nostra", "erweckt", "gregorianik"],
+                "/theme/images/artists/resized/Vox_Nostra_Hedwig035.jpeg",
+                ["IV. VOX NOSTRA", "ERWECKT", "GREGORIANIK & MEHRSTIMMIGKEIT DER NOTRE-DAME"],
                 "17 uhr",
-                "mattheauskirche essen-borbeck",
-            ) }}
-            {% else %}
-            {{ make_artist(
+                "matthäuskirche, essen-borbeck",
+            ),
+            make_artist(
                 "vox_nostra_en",
-                "/theme/images/Vox_Nostra_Hedwig035.jpeg",
-                ["III. vox nostra", "erweckt", "gregorianik"],
-                "5 pm",
-                "mattheauskirche essen-borbeck",
-            ) }}
-            {% endif %}
-        </div>
-        <div class="column">
-        </div>
+                "/theme/images/artists/resized/Vox_Nostra_Hedwig035.jpeg",
+                ["IV. VOX NOSTRA", "REINVIGORATES", "GREGONIAN CHANTS & POLYPHONY OF NOTRE-DAME"],
+                "5pm",
+                "matthäuskirche, essen-borbeck",
+            )
+        ],
+        [
+            make_artist(
+                "ya_ensemble",
+                "/theme/images/artists/resized/virginia_nicoli.jpg",
+                ["V. YA¹ ENSEMBLE", "INTERPRETIERT", "WERKE VON C. LAMB & C. SZLAVNICS"],
+                "19 uhr",
+                "schloss borbeck",
+            ),
+            make_artist(
+                "ya_ensemble_en",
+                "/theme/images/artists/resized/virginia_nicoli.jpg",
+                ["V. YA¹ ENSEMBLE", "INTERPRETS", "COMPOSITIONS OF C. LAMB & C. SZLAVNICS"],
+                "7pm",
+                "schloss borbeck",
+            )
+        ],
+        [
+            make_artist(
+                "tamon_yashima",
+                "/theme/images/artists/resized/tamon_yashima.jpg",
+                ["VI. TAMON YASHIMA", "COMPROVISIERT", "NOISE"],
+                "21 uhr",
+                "schlosspark borbeck",
+            ),
+            make_artist(
+                "tamon_yashima_en",
+                "/theme/images/artists/resized/tamon_yashima.jpg",
+                ["VI. TAMON YASHIMA", "COMPROVISES", "NOISE"],
+                "9pm",
+                "schlosspark borbeck",
+            )
+        ]
+    ] %}
+    <div class="columns">
+        {% if language == "de" %}
+            {% set artist = artist[0] %}
+        {% else %}
+            {% set artist = artist[1] %}
+        {% endif %}
+        {% if loop.index % 2 == 0 %}
+            <div class="column"></div>
+            <div class="column right-column">{{ artist }}</div>
+        {% else %}
+            <div class="column left-column">{{ artist }}</div>
+            <div class="column"></div>
+        {% endif %}
     </div>
+    {% endfor %}
 </div>
 
 <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/modal.js"></script>

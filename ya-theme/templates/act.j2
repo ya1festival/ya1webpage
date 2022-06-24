@@ -16,18 +16,27 @@
 </div>
 
 
-<img data-target="{{- modal_id -}}" class="js-modal-trigger grey-on-hover" src="{{- img_url -}}">
-
-<div class="columns pb-0 mb-0">
-{% for description_text in description_text_list %}
-    <div class="column">
-        <p class="ya-text">{{ description_text }}</p>
+<div class="card js-modal-trigger grey-on-hover" data-target="{{- modal_id -}}">
+    <div class="card-image">
+        <img src="{{- img_url -}}">
     </div>
-{% endfor %}
+    <div class="card-content">
+
+      <header class="card-header">
+            <div class="columns pb-0 mb-0">
+            {% for description_text in description_text_list %}
+                <div class="column">
+                    <p class="description-text is-size-4">{{ description_text|upper }}</p>
+                </div>
+            {% endfor %}
+            </div>
+        </header>
+
+        <p class="ya-text is-size-5">{{ venue }} // {{ time }}</p>
+
+    </div>
 </div>
 
-<p class="ya-text">{{ time }}</p>
-<p class="ya-text">{{ venue }}</p>
 
 {% endmacro %}
 

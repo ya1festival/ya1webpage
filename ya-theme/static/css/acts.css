@@ -1,0 +1,74 @@
+@import "base.css";
+
+.description-text {
+    color: var(--ya-link-color);
+}
+
+.grey-on-hover {
+    cursor: pointer;
+    -webkit-filter: grayscale(0%) blur(0);
+    -moz-filter: grayscale(0%) blur(0);
+    filter: grayscale(0%) blur(0);
+    transition: all 0.1s ease;
+}
+
+.grey-on-hover:hover {
+    cursor: pointer;
+   -webkit-filter: grayscale(100%) blur(2px);
+   -moz-filter: grayscale(100%) blur(2px);
+   filter: grayscale(100%) blur(2px);
+}
+
+
+.modal h1 {
+    font-size: 200%;
+    color: var(--ya-link-color);
+}
+
+.modal p {
+    color: var(--ya-text-color);
+    text-align: justify !important;
+    /* text-align-last: justify; */
+    text-align-last: left;
+    white-space: pre-line;
+    padding: 1vh;
+}
+
+.modal strong {
+    color: var(--ya-link-color);
+    text-align: justify !important;
+    /* text-align-last: justify; */
+    text-align-last: left;
+    white-space: pre-line;
+}
+
+.modal li {
+    color: var(--ya-link-color);
+    text-align: justify !important;
+    text-align-last: left;
+    white-space: pre-line;
+}
+
+.modal a {
+    color: var(--ya-link-color);
+}
+
+.modal a:hover {
+    background-color: rgba(0, 0, 0, 0);
+    font-family: "ppmori-italic";
+    color: var(--ya-link-color);
+}
+
+.right-column img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.left-column img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

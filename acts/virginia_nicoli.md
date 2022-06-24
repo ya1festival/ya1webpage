@@ -29,5 +29,3 @@ At the same time when she started the Conservatory in Vicenza she began her jour
 Virginia Nicoli mostly performs in duet with her partner in life and music Igino Giovanni Brunori. Their duet is called Samvad and they have performed worldwide in different classical and contemporary collaborations.
 
 This time she will give a rare solo performance bringing us close to the intricacies of this unique ancient musical genre.
-
-**abc**

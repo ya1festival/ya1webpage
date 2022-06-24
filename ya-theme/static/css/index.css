@@ -4,6 +4,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    cursor: pointer;
 }
 
 .full-image img {

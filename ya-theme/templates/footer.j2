@@ -32,19 +32,23 @@
                 funded by
             {% endif %}
         </p>
-        {% for logo_file_name, link in
+        <div class="columns">
+        {% for logo_file_name, url in
             [
                 ["KE_Logo_klein_05.jpg", "https://www.kulturstiftung-essen.de/"],
                 ["Logo-Kulturamt-Outline-schwarz-grau.jpg", "https://www.essen.de/leben/kultur_/ansprechpartner_.de.html"],
                 ["Sparkasse.jpeg", "https://www.sparkasse-essen.de/de/home.html"]
             ]
         %}
-            <figure class="image is-128x128 zoom-on-hover">
-                <a href="{{ url }}">
-                    <img src="/theme/images/{{ logo_file_name }}">
-                </a>
-            </figure>
+            <div class="column">
+                <figure class="image is-128x128 zoom-on-hover">
+                    <a href="{{ url }}">
+                        <img src="/theme/images/{{ logo_file_name }}">
+                    </a>
+                </figure>
+            </div>
         {% endfor %}
+        </div>
     </div>
     <div class="column">
         <p class="ya-text">

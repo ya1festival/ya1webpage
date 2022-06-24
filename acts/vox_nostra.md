@@ -1,4 +1,4 @@
-# Vokalensemble VOX NOSTRA
+# [VOX NOSTRA](https://vox-nostra.com/)
  
 Die berühmte Kathedrale Notre-Dame de Paris spielte im ausgehenden 12. und im 13. Jh. eine zentrale Rolle bei der Entstehung mehrstimmiger liturgischer Kompositionen. Neben einem neu entstandenen Konvolut zweistimmiger Kompositionen durch Magister Leonin um 1180 wurden kurze Zeit später in mehreren Handschriften auch drei- und vierstimmige Kompositionen von Magister Perotin überliefert. In der Unterstimme erklingen hier die traditionellen Gregorianischen Choräle in langen Haltetönen, während durch die Oberstimmen ein imposantes und bewegtes Klanggebäude entsteht.
  

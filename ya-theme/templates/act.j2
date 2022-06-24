@@ -1,4 +1,4 @@
-{% macro make_artist(act_id, img_url, description_text_list, time, venue) %}
+{% macro make_artist(act_id, img_url, description_text_list, time, venue, photographer=none) %}
 
 {% set modal_id = "modal_for_" + act_id %}
 {% set modal_content_path = "acts/" + act_id + ".html" %}
@@ -16,9 +16,12 @@
 </div>
 
 
-<div class="card js-modal-trigger grey-on-hover" data-target="{{- modal_id -}}">
+<div class="card js-modal-trigger zoom-on-hover" data-target="{{- modal_id -}}">
     <div class="card-image">
         <img src="{{- img_url -}}">
+        {% if photographer %}
+            <figcaption><footer><small class="photo-copyright-note">(photo: {{ photographer|lower }})</small></footer></figcaption>
+        {% endif %}
     </div>
     <div class="card-content">
 

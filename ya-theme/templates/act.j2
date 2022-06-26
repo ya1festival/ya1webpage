@@ -14,9 +14,9 @@
 </div>
 
 
-<div class="card js-modal-trigger act-card" data-target="{{- modal_id -}}">
+<div class="card js-modal-trigger act-card" data-target="{{- modal_id -}}" id="{{ act_id }}">
     <div class="card-image">
-        <img src="{{- img_url -}}">
+        <img src="{{- img_url -}}" alt="Image of {{ act_id }}">
         {% if photographer %}
             <figcaption><footer><small class="photo-copyright-note">(photo: {{ photographer|lower }})</small></footer></figcaption>
         {% endif %}

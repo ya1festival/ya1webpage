@@ -1,4 +1,4 @@
-# Viginia Nicoli
+# [Viginia Nicoli](http://www.samvadmusic.com/)
 
 Virginia Nicoli is an Italian musician who has dedicated the past 17 years studying Indian Classical Music.
 

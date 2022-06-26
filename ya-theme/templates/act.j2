@@ -1,4 +1,4 @@
-{% macro make_artist(act_id, img_url, description_text_list, time, venue, photographer=none) %}
+{% macro make_artist(act_id, img_url, description_text_list, time, venue, venue_link, photographer=none) %}
 
 {% set modal_id = "modal_for_" + act_id %}
 {% set modal_content_path = "acts/" + act_id + ".html" %}
@@ -7,6 +7,7 @@
   <div class="modal-background"></div>
   <div class="modal-card">
     <section class="modal-card-body">
+        <a href="{{ venue_link }}">{{ venue }}</a>
         {% include modal_content_path %}
     </section>
   </div>

@@ -80,3 +80,11 @@
     margin-right: auto;
     width: 50%;
 }
+
+.act-card {
+    cursor: pointer;
+}
+
+.act-card:hover {
+    font-family: "ppmori-italic";
+}

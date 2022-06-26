@@ -20,7 +20,24 @@
     <a class="ya-footer-link" href="{{ link }}">{{ link_name|upper }}</a>
 {% endmacro %}
 
+{% macro make_logo_image(logo_file_name, url) %}
+    <figure class="image is-128x128 zoom-on-hover">
+        <a href="{{ url }}">
+            <img src="/theme/images/{{ logo_file_name }}" alt="Logo of {{ logo_file_name }}">
+        </a>
+    </figure>
+{% endmacro %}
+
 {% macro get_footer(language, site_url) %}
+
+{% set sponsor_list = [
+        ["KE_Logo_klein_05.jpg", "https://www.kulturstiftung-essen.de/"],
+        ["Logo-Kulturamt-Outline-schwarz-grau.jpg", "https://www.essen.de/leben/kultur_/ansprechpartner_.de.html"],
+        ["Sparkasse.jpeg", "https://www.sparkasse-essen.de/de/home.html"]
+    ]
+%}
+
+{% set sponsor_list_lenght = sponsor_list|length %}
 
 <div class="columns is-centered ya-footer is-fluid">
     <div class="column is-one-fifth"></div>
@@ -32,20 +49,30 @@
                 funded by
             {% endif %}
         </p>
-        <div class="columns">
-        {% for logo_file_name, url in
-            [
-                ["KE_Logo_klein_05.jpg", "https://www.kulturstiftung-essen.de/"],
-                ["Logo-Kulturamt-Outline-schwarz-grau.jpg", "https://www.essen.de/leben/kultur_/ansprechpartner_.de.html"],
-                ["Sparkasse.jpeg", "https://www.sparkasse-essen.de/de/home.html"]
-            ]
-        %}
+        <div class="columns is-hidden-mobile">
+        {% for logo_file_name, url in sponsor_list %}
             <div class="column">
-                <figure class="image is-128x128 zoom-on-hover">
-                    <a href="{{ url }}">
-                        <img src="/theme/images/{{ logo_file_name }}" alt="Logo of {{ logo_file_name }}">
-                    </a>
-                </figure>
+                {{ make_logo_image(logo_file_name, url) }}
+            </div>
+        {% endfor %}
+        </div>
+        <div class="container is-hidden-tablet">
+        {% for logo_file_index in range((sponsor_list_lenght // 2) + (sponsor_list_lenght % 2)) %}
+            {% set logo_file_index = logo_file_index * 2 %}
+            {% set second_logo_file_index = logo_file_index + 1 %}
+
+            <div class="columns is-mobile">
+
+                {% set logo_image0 = make_logo_image(sponsor_list[logo_file_index][0], sponsor_list[logo_file_index][1]) %}
+                {% if second_logo_file_index < sponsor_list_lenght %}
+                    {% set logo_image1 = make_logo_image(sponsor_list[logo_file_index + 1][0], sponsor_list[logo_file_index + 1][1]) %}
+                {% else %}
+                    {% set logo_image1 = "" %}
+                {% endif %}
+
+                <div class="column">{{ logo_image0 }}</div>
+                <div class="column">{{ logo_image1 }}</div>
+
             </div>
         {% endfor %}
         </div>
@@ -58,7 +85,7 @@
                 in cooperation with
             {% endif %}
         </p>
-        <div class="columns">
+        <div class="columns is-mobile">
             {% for logo_file_name, url in
                 [
                     ["GNMR_Logo.jpg", "https://www.gnmr.de/"],

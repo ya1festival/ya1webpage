@@ -1,4 +1,4 @@
 title: en
-template: homepage
+template: tickets
 Slug: tickets/en
 date: 11.06.2022

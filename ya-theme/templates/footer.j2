@@ -58,13 +58,17 @@
                 in cooperation with
             {% endif %}
         </p>
-        {% for logo_file_name, url in [["GNMR_Logo.jpg", "https://www.gnmr.de/"]] %}
-            <figure class="image is-128x128 footer-logo zoom-on-hover">
-                <a href="{{ url }}">
-                    <img src="/theme/images/{{ logo_file_name }}">
-                </a>
-            </figure>
-        {% endfor %}
+        <div class="columns">
+            {% for logo_file_name, url in [["GNMR_Logo.jpg", "https://www.gnmr.de/"], ["cebo-logo.png", "https://www.gnmr.de/"]] %}
+                <div class="column">
+                <figure class="image is-128x128 footer-logo zoom-on-hover">
+                    <a href="{{ url }}">
+                        <img src="/theme/images/{{ logo_file_name }}">
+                    </a>
+                </figure>
+                </div>
+            {% endfor %}
+        </div>
     </div>
 </div>
 

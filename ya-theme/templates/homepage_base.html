@@ -22,16 +22,6 @@
     <div class="container has-text-right pr-4 mr-4">
         {{ language_selectors.get_language_selector(language, SITEURL + "/" + article.slug) }}
     </div>
-    <div class="columns ml-0 mr-0 pl-0 pr-0 mt-6 pt-6">
-        <div class="column is-half pr-5 mr-5">
-        </div>
-        <div class="column pl-6 ml-6 pt-6 mt-6">
-            <p class="ya-text">
-                {% block header_text %}
-                {% endblock %}
-            </p>
-        </div>
-    </div>
     <div class="columns mb-0 pb-0">
         <div class="column">
         </div>
@@ -48,6 +38,18 @@
             </p>
         </div>
         <div class="column is-one-fifth"></div>
+    </div>
+    <div class="columns ml-0 mr-0 pl-0 pr-0 mt-0 pt-0">
+        <div class="column is-half pr-5 mr-5">
+        </div>
+        <div class="column  pl-0 ml-0 pt-0 mt-0">
+            <p class="ya-text">
+                {% block header_text %}
+                {% endblock %}
+            </p>
+        </div>
+        <div class="column">
+        </div>
     </div>
     <div class="columns mt-0 pt-0">
         <div class="column">

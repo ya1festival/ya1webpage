@@ -31,7 +31,7 @@
 .ya-header  {
     background-image: url("/theme/images/yllwmoss_ya1_erk_resized_cropped.png");
     background-repeat: no-repeat;
-      background-size: contain;
+    background-size: contain;
     padding-bottom: 16vh;
 }
 
@@ -134,4 +134,35 @@
 
 .team-table {
     width: 100%;
+}
+
+@keyframes scale {
+    from {
+        transform: scale(1, 2);
+    }
+
+    to {
+        transform: scale(3, 1);
+    }
+}
+
+
+.mobile-dropdown-image {
+    cursor: pointer;
+    animation-duration: 2s;
+    animation-name: scale;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@media screen and (max-width: 768px) {
+  .has-navbar-fixed-top-responsive {
+    padding-top: 3.25rem;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-navbar-fixed-top-responsive {
+    padding-top: 0rem;
+  }
 }

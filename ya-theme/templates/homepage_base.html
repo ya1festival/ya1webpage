@@ -16,8 +16,36 @@
 {{ "column time-and-space is-size-4 is-size-3-desktop-only is-size-3-widescreen-only is-size-2-fullhd has-text-right" }}
 {% endmacro %}
 
-<!-- HEADER -->
-<div class="container ya-header ml-0 mt-0 mr-0 pl-0 pt-0 pr-0 mb-1 is-fluid">
+<!-- HEADER FOR PHONES -->
+<div class="navbar is-hidden-tablet ml-0 mt-0 mr-0 pl-0 pt-0 pr-0 mb-0 pb-0 is-fluid is-fixed-top">
+    <div class="columns mb-0 pb-0 is-mobile">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <img class="mobile-dropdown-image" src="/theme/images/yllwmoss_ya1_erk_resized_cropped.png">
+                </div>
+                <div class="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        {% for title_dict, link in MENU_ITEM_LIST %}
+                        <div class="dropdown-item">
+                            {{ navigations.get_navigation_link(title_dict, link, language, SITEURL) }}
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="container has-text-right pr-4 mr-4">
+                {{ language_selectors.get_language_selector(language, SITEURL + "/" + article.slug) }}
+            </div>
+        </div>
+    </div>
+    <hr>
+</div>
+
+<!-- HEADER FOR ANYTHING BIGGER THAN PHONES -->
+<div class="container is-hidden-mobile ya-header ml-0 mt-0 mr-0 pl-0 pt-0 pr-0 mb-1 is-fluid">
     <div class="columns mt-0 pt-0"></div>
     <div class="container has-text-right pr-4 mr-4">
         {{ language_selectors.get_language_selector(language, SITEURL + "/" + article.slug) }}
@@ -66,28 +94,6 @@
 
 <!-- BLOCK -->
 <div class="columns is-fluid mt-0 pt-0">
-    <!-- Dropdown menu for phones -->
-    <div class="column is-hidden-tablet mt-0 pt-0">
-        <div class="dropdown">
-            <div class="dropdown-trigger">
-                <button class="button is-large ya-menu-button" aria-haspopup="true" aria-controls="dropdown-menu">
-                    <p class="rotate is-size-3">ya¹</p>
-                    <span class="icon is-large">
-                        <i class="fas fa-angle-down" aria-hidden="false"></i>
-                    </span>
-                </button>
-            </div>
-            <div class="dropdown-menu" role="menu">
-                <div class="dropdown-content">
-                    {% for title_dict, link in MENU_ITEM_LIST %}
-                    <div class="dropdown-item">
-                        {{ navigations.get_navigation_link(title_dict, link, language, SITEURL) }}
-                    </div>
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- Sticky sidebar for everything bigger than mobile. -->
     <div class="columns is-variable is-hidden-mobile sidebar is-gapless">
         <div class="column is-three-fifths is-hidden-overflow-x mr-0 pr-0">

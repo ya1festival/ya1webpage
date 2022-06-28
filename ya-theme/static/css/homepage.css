@@ -97,15 +97,6 @@
 }
 
 
-.menu-list a {
-    color: var(--ya-link-color);
-}
-
-.menu-list a:hover {
-    background-color: rgba(0, 0, 0, 0);
-    font-family: "ppmori-italic";
-    color: var(--ya-link-color);
-}
 
 
 #be-there {
@@ -115,7 +106,7 @@
     width: 50%;
     height: auto;
     */
-    width: 40vh;
+    width: 65vh;
     height: auto;
 }
 
@@ -137,7 +128,7 @@
 
 
 .time-and-space {
-    color: var(--ya-text-color-salmon);
+    color: var(--ya-text-color);
 }
 
 .team-table {

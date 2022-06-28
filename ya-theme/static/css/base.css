@@ -1,8 +1,9 @@
 :root {
   --ya-header-color: #FCF698;
-  --ya-link-color: #B45B5B;
+  --ya-link-color: #FF9090;
   --ya-text-color: #6666FF;
   --ya-text-color-salmon: #F2C7C7;
+  --ya-poster-blue: #7ab2e1;
 }
 
 @font-face {
@@ -40,13 +41,13 @@ body {
 }
 
 .ya-menu-link {
-    color: var(--ya-link-color);
+    color: var(--ya-link-color) !important;
 }
 
 .ya-menu-link:hover {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0) !important;
     font-family: "ppmori-italic";
-    color: var(--ya-link-color);
+    color: var(--ya-link-color) !important;
 }
 
 .ya-footer-link {

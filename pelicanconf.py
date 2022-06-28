@@ -34,7 +34,6 @@ MENU_ITEM_LIST = [
     [{"de": "acts", "en": "acts"}, "acts"],
     [{"de": "tickets", "en": "tickets"}, "tickets"],
     [{"de": "team", "en": "team"}, "team"],
-    [{"de": "kontakt", "en": "contact"}, "contact"],
 ]
 
 TAGS_SAVE_AS = ""

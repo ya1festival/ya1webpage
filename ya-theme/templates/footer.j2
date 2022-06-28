@@ -1,6 +1,7 @@
 {% import 'navigation.j2' as navigations %}
 
 {% set FOOTER_ITEM_LIST = [
+    [{"de": "kontakt", "en": "contact"}, "contact"],
     [{"de": "impressum", "en": "impressum"}, "impressum"],
     [{"de": "datenschutz", "en": "datenschutz"}, "datenschutz"],
 ] %}
@@ -107,10 +108,9 @@
         </div>
     </div>
 
-    <div class="columns is-centered is-fluid">
+    <div class="columns is-widescreen is-centered is-fluid">
         <div class="column"></div>
-        <div class="column"></div>
-        <div class="column">
+        <div class="column is-three-quarters-desktop is-two-thirds-widescreen is-half-fullhd">
             {% for link_name, link in LINK_LIST %}
                 {{ make_footer_button(make_social_media_link(link_name, link)) }}
             {% endfor %}

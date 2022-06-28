@@ -25,11 +25,11 @@
 
       <header class="card-header">
             <div class="columns pb-0 mb-0">
+<p class="description-text is-size-4">
             {% for description_text in description_text_list %}
-                <div class="column">
-                    <p class="description-text is-size-4">{{ description_text|upper }}</p>
-                </div>
+                {{ description_text|upper }}
             {% endfor %}
+            </p>
             </div>
         </header>
 

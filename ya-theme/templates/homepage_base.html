@@ -54,41 +54,25 @@
         <div class="column">
         </div>
         <div class="column">
-            <figure class="image is-3by1">
-                <img id="be-there" src="/theme/images/be_there_compressed.png">
-            </figure>
-        </div>
-        <div class="{{ get_time_and_space_classes() }}">
-            <p class="pb-0 mb-0">06.08.2022</p>
-            <p class="pt-0 mt-0 pb-0 mb-0">
-                {% block time %}
-                {% endblock %}
-            </p>
-        </div>
-        <div class="column is-one-fifth"></div>
-    </div>
-    <div class="columns ml-0 mr-0 pl-0 pr-0 mt-0 pt-0">
-        <div class="column is-half pr-5 mr-5">
-        </div>
-        <div class="column  pl-0 ml-0 pt-0 mt-0">
-            <p class="ya-text">
+            <img id="be-there" src="/theme/images/be_there_compressed.png">
+            <p class="ya-text pt-0 mt-0">
                 {% block header_text %}
                 {% endblock %}
             </p>
         </div>
         <div class="column">
+            <div class="{{ get_time_and_space_classes() }}">
+                <p class="pb-0 mb-0">06.08.2022</p>
+                <p class="pt-0 mt-0 pb-0 mb-0">
+                    {% block time %}
+                    {% endblock %}
+                </p>
+                <p>
+                    {% block location %}
+                    {% endblock %}
+                </p>
+            </div>
         </div>
-    </div>
-    <div class="columns mt-0 pt-0">
-        <div class="column">
-        </div>
-        <div class="{{ get_time_and_space_classes() }}">
-            <p>
-            {% block location %}
-            {% endblock %}
-            </p>
-        </div>
-        <div class="column is-one-fifth"></div>
     </div>
 </div>
 

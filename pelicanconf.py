@@ -19,8 +19,7 @@ LINK_LIST = [
 
 # Social widget
 SOCIAL = [
-    # ("You can add links in your config file", "#"),
-    # ("Another social link", "#"),
+    ("instagram", "https://www.instagram.com/ya1festival/"),
 ]
 
 DEFAULT_PAGINATION = 10

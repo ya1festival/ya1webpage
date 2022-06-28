@@ -1,1 +1,26 @@
 {% extends "homepage.html" %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/homepage.css"/>
+<link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/maps.css" />
+{% endblock head %}
+
+
+{% block content %}
+
+<p>hello world</p>
+
+<div class="container map">
+  <img src="/theme/images/hintergrundhomepg_ya1_erk_scaled.png" style="width:100%;">
+  <div class="bottom-left">
+      <p>
+          Bottom Left
+      </p>
+  </div>
+  <div class="top-left">Top Left</div>
+  <div class="top-right">Top Right</div>
+  <div class="bottom-right">Bottom Right</div>
+  <div class="centered">Centered</div>
+</div>
+
+{% endblock content %}

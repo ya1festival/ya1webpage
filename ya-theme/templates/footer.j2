@@ -39,73 +39,75 @@
 
 {% set sponsor_list_lenght = sponsor_list|length %}
 
-<div class="columns is-centered ya-footer is-fluid">
-    <div class="column is-one-fifth"></div>
-    <div class="column">
-        <p class="ya-text">
-            {% if language == "de" %}
-                gefördert durch
-            {% else %}
-                funded by
-            {% endif %}
-        </p>
-        <div class="columns is-hidden-mobile">
-        {% for logo_file_name, url in sponsor_list %}
-            <div class="column">
-                {{ make_logo_image(logo_file_name, url) }}
-            </div>
-        {% endfor %}
-        </div>
-        <div class="container is-hidden-tablet">
-        {% for logo_file_index in range((sponsor_list_lenght // 2) + (sponsor_list_lenght % 2)) %}
-            {% set logo_file_index = logo_file_index * 2 %}
-            {% set second_logo_file_index = logo_file_index + 1 %}
 
-            <div class="columns is-mobile">
+<footer class="ya-footer">
 
-                {% set logo_image0 = make_logo_image(sponsor_list[logo_file_index][0], sponsor_list[logo_file_index][1]) %}
-                {% if second_logo_file_index < sponsor_list_lenght %}
-                    {% set logo_image1 = make_logo_image(sponsor_list[logo_file_index + 1][0], sponsor_list[logo_file_index + 1][1]) %}
+    <div class="columns is-centered is-fluid">
+        <div class="column is-one-fifth"></div>
+        <div class="column">
+            <p class="ya-text">
+                {% if language == "de" %}
+                    gefördert durch
                 {% else %}
-                    {% set logo_image1 = "" %}
+                    funded by
                 {% endif %}
-
-                <div class="column">{{ logo_image0 }}</div>
-                <div class="column">{{ logo_image1 }}</div>
-
-            </div>
-        {% endfor %}
-        </div>
-    </div>
-    <div class="column">
-        <p class="ya-text">
-            {% if language == "de" %}
-                in kooperation mit
-            {% else %}
-                in cooperation with
-            {% endif %}
-        </p>
-        <div class="columns is-mobile">
-            {% for logo_file_name, url in
-                [
-                    ["GNMR_Logo.jpg", "https://www.gnmr.de/"],
-                    ["cebo-logo.png", "https://cebo-borbeck.de/"]
-                ]
-            %}
+            </p>
+            <div class="columns is-hidden-mobile">
+            {% for logo_file_name, url in sponsor_list %}
                 <div class="column">
-                <figure class="image is-128x128 footer-logo zoom-on-hover">
-                    <a href="{{ url }}">
-                        <img src="/theme/images/{{ logo_file_name }}" alt="Logo of {{ logo_file_name }}">
-                    </a>
-                </figure>
+                    {{ make_logo_image(logo_file_name, url) }}
                 </div>
             {% endfor %}
+            </div>
+            <div class="container is-hidden-tablet">
+            {% for logo_file_index in range((sponsor_list_lenght // 2) + (sponsor_list_lenght % 2)) %}
+                {% set logo_file_index = logo_file_index * 2 %}
+                {% set second_logo_file_index = logo_file_index + 1 %}
+
+                <div class="columns is-mobile">
+
+                    {% set logo_image0 = make_logo_image(sponsor_list[logo_file_index][0], sponsor_list[logo_file_index][1]) %}
+                    {% if second_logo_file_index < sponsor_list_lenght %}
+                        {% set logo_image1 = make_logo_image(sponsor_list[logo_file_index + 1][0], sponsor_list[logo_file_index + 1][1]) %}
+                    {% else %}
+                        {% set logo_image1 = "" %}
+                    {% endif %}
+
+                    <div class="column">{{ logo_image0 }}</div>
+                    <div class="column">{{ logo_image1 }}</div>
+
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+        <div class="column">
+            <p class="ya-text">
+                {% if language == "de" %}
+                    in kooperation mit
+                {% else %}
+                    in cooperation with
+                {% endif %}
+            </p>
+            <div class="columns is-mobile">
+                {% for logo_file_name, url in
+                    [
+                        ["GNMR_Logo.jpg", "https://www.gnmr.de/"],
+                        ["cebo-logo.png", "https://cebo-borbeck.de/"]
+                    ]
+                %}
+                    <div class="column">
+                    <figure class="image is-128x128 footer-logo zoom-on-hover">
+                        <a href="{{ url }}">
+                            <img src="/theme/images/{{ logo_file_name }}" alt="Logo of {{ logo_file_name }}">
+                        </a>
+                    </figure>
+                    </div>
+                {% endfor %}
+            </div>
         </div>
     </div>
-</div>
 
-<footer>
-    <div class="columns is-centered ya-footer is-fluid">
+    <div class="columns is-centered is-fluid">
         <div class="column"></div>
         <div class="column"></div>
         <div class="column">
@@ -117,5 +119,6 @@
             {% endfor %}
         </div>
     </div>
+
 </footer>
 {% endmacro %}

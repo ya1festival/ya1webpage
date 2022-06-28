@@ -1,3 +1,5 @@
+@import "base.css";
+
 .rotate {
     writing-mode: vertical-rl;
     text-orientation: mixed;
@@ -165,4 +167,13 @@
   .has-navbar-fixed-top-responsive {
     padding-top: 0rem;
   }
+}
+
+
+.ya-footer {
+    color: var(--ya-link-color);
+    background-image: url("/theme/images/footer_background_scaled.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }

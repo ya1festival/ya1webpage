@@ -119,9 +119,15 @@
     height: auto;
 }
 
+/*
 #sliced-sidebar-image {
-    width: auto;
-    height: 100%;
+    width: 5vh;
+    height: 80%;
+}
+*/
+#sliced-sidebar-image {
+    background-image: url("/theme/images/moss_erk_sliced_thin.png");
+    background-size: cover;
 }
 
 

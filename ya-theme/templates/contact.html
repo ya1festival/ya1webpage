@@ -16,6 +16,8 @@
 {% endif %}
 
 {% block content %}
+
+
 <table class="team-table">
 {% for mail in ["info@ya-festival.org", "booking@ya-festival.org"] %}
 {% set role = role_list[loop.index - 1] %}
@@ -25,5 +27,9 @@
 </tr>
 {% endfor %}
 </table>
+
+<figure>
+    <img class="hand-written-header" src="/theme/images/kontakt_ya1_erk_scaled.png" alt="contact us">
+</figure>
 
 {% endblock %}

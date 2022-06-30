@@ -7,7 +7,9 @@ Für dieses Konzert wurden zwei Stücke selektiert die den drone als immanentes 
 ## "Gradients of time" von Chiyoko Szlavnics
 
 Das äußerst anspruchsvolle Material der Komposition wurde durch das akustische Konzept eines "kritischen Bandes" inspiriert, das Chiyoko Szlavnics durch James Tenneys Komposition Critical Band von 1988 kennengelernte.
+
 Die Originalzeichnungen von *Gradient of Detail* zeigen, wie die Form des Werks als Triptychon konzipiert wurde; wie eine solche außergewöhnlich statische Musik intuitiv entworfen wurde, um sich in der Zeit und im Tonraum zu entfalten. Sie zeigen auch, wie Unisonos und Stille wichtige Strukturelemente sind, wobei die Stille dem Hörer einige Momente bietet, um die Intensität des gerade Gehörten zu lösen, bevor die Musik weitergeht.
+
 Die Zeichnungen, die an Pflanzenstrukturen erinnern, wurden von den Kindheits Begegnungen mit der fremdartig aussehenden Milkweed-Pflanze inspiriert: Ihre Schoten, ihre seidigen "Fallschirmsamen" und ihre gelegentlichen Besucher, die Raupen des Monarchfalters. Milkweed ist die einzige Pflanze, auf der der Monarch seine Eier ablegt. Tragischerweise sind die Lebensräume der Pflanze entlang der Wanderrouten des Schmetterlings in Nordamerika durch moderne landwirtschaftliche Praktiken weitgehend zerstört worden.
 
 ## "Prisma Interius VI - for VT" von Catherine Lamb:

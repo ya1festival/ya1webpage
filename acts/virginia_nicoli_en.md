@@ -2,9 +2,9 @@
 
 Virginia Nicoli is an Italian musician who has dedicated the past 17 years studying Indian Classical Music.
 
-Virginia Nicoli mostly performs in duet with her partner in life and music Igino Giovanni Brunori. Their duet is called [Samvad](http://www.samvadmusic.com/) and they have performed worldwide in different classical and contemporary collaborations.
+She mostly performs in duet with her partner in life and music Igino Giovanni Brunori. Their duet is called [Samvad](http://www.samvadmusic.com/) and they have performed worldwide in different classical and contemporary collaborations.
 
-This time she will give a rare solo performance bringing us close to the intricacies of this unique ancient musical genre.
+This time Nicoli will give a rare solo performance bringing us close to the intricacies of this unique ancient musical genre.
 
 ---
 

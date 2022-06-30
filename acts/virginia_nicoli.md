@@ -1,19 +1,19 @@
 # [Viginia Nicoli](http://www.samvadmusic.com/)
 
-Virginia Nicoli is an Italian musician who has dedicated the past 17 years studying Indian Classical Music.
+Virginia Nicoli ist eine italienische Musikerin, die in den letzten 17 Jahren klassische indische Musik studiert hat.
 
-Virginia Nicoli mostly performs in duet with her partner in life and music Igino Giovanni Brunori. Their duet is called [Samvad](http://www.samvadmusic.com/) and they have performed worldwide in different classical and contemporary collaborations.
+Sie tritt meist im Duo mit ihrem Lebens- und Musikpartner Igino Giovanni Brunori auf. Ihr Duo nennt sich [Samvad](http://www.samvadmusic.com/) und sie sind weltweit in verschiedenen klassischen und zeitgenössischen Kollaborationen aufgetreten.
 
-This time she will give a rare solo performance bringing us close to the intricacies of this unique ancient musical genre.
+Dieses Mal wird Nicoli eine seltene Solo-Performance geben, die uns die Feinheiten dieses einzigartigen alten Musikgenres näher bringt.
 
 ---
 
-Her journey with music began in her early childhood, studying silver flute at different private schools and at the Conservatory in Milan.
+Ihre Reise mit der Musik begann in ihrer frühen Kindheit, als sie an verschiedenen Privatschulen und am Konservatorium in Mailand Silberflöte studierte.
 
-At the age of 18 however she discovered the world of Indian Classical Music and from there on she completely immersed herself in this ancient art form.
+Im Alter von 18 Jahren entdeckte sie jedoch die Welt der klassischen indischen Musik und tauchte von da an vollständig in diese alte Kunstform ein.
 
-At first, she studied at the Conservatory in Vicenza where a special course of Indian Classical Music exists since 2003. There she had the honour to study with [Amelia Juni](http://www.ameliacuni.de), Gianni Richizzi and Federico Sanesi.
+Zunächst studierte sie am Konservatorium in Vicenza, wo es seit 2003 einen speziellen Kurs für klassische indische Musik gibt. Dort hatte sie die Ehre, bei [Amelia Juni](http://www.ameliacuni.de), Gianni Richizzi und Federico Sanesi zu studieren.
 
-In 2010 She graduated from this Conservatory in "tradizioni musicali extra europee ad indirizzo indologico" with the award for most outstanding graduates. She presented her final thesis after an extensive research in India interviewing great musicians and musicologists.
+Im Jahr 2010 schloss sie ihr Studium an diesem Konservatorium in "tradizioni musicali extra europee ad indirizzo indologico" mit dem Preis für die herausragendsten Absolventen ab. Sie präsentierte ihre Abschlussarbeit nach einer umfangreichen Recherche in Indien, bei der sie große Musiker und Musikwissenschaftler interviewte.
 
-At the same time when she started the Conservatory in Vicenza she began her journey to India. At first, she studied the Bansuri (Indian flute) with [Pandit Rajendra Prasanna](https://en.wikipedia.org/wiki/Rajendra_Prasanna) in Delhi. However, she was drawn more and more to the most ancient form of Indian Classical Music of India Called ‘Dhrupad’ and she started studying with the [Gundecha Brothers](https://en.wikipedia.org/wiki/Gundecha_Brothers), foremost exponents of this genre. She lived in their school the ‘Dhrupad Sansthan’ in Bhopal for 6 months a year from 2009 to 2016.
+Zur gleichen Zeit, als sie das Konservatorium in Vicenza eröffnete, begann sie ihre Reise nach Indien. Zunächst studierte sie die Bansuri (indische Flöte) bei [Pandit Rajendra Prasanna](https://en.wikipedia.org/wiki/Rajendra_Prasanna) in Delhi. Sie fühlte sich jedoch mehr und mehr zu der ältesten Form der klassischen indischen Musik, dem Dhrupad, hingezogen und begann, bei den [Gundecha Brothers](https://en.wikipedia.org/wiki/Gundecha_Brothers), den führenden Vertretern dieses Genres, zu studieren. Von 2009 bis 2016 lebte sie sechs Monate pro Jahr in deren Schule, dem "Dhrupad Sansthan" in Bhopal.

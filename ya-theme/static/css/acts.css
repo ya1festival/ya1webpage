@@ -25,6 +25,11 @@
     color: var(--ya-link-color);
 }
 
+.modal h2 {
+    font-size: 150%;
+    color: var(--ya-link-color);
+}
+
 .modal p {
     color: var(--ya-text-color);
     text-align: justify !important;
@@ -42,8 +47,13 @@
     white-space: pre-line;
 }
 
+.modal ul {
+    padding-left: 3vh;
+    list-style-type: circle;
+}
+
 .modal li {
-    color: var(--ya-link-color);
+    color: var(--ya-text-color);
     text-align: justify !important;
     text-align-last: left;
     white-space: pre-line;

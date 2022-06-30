@@ -4,7 +4,7 @@ Virginia Nicoli ist eine italienische Musikerin, die in den letzten 17 Jahren kl
 
 Sie tritt meist im Duo mit ihrem Lebens- und Musikpartner Igino Giovanni Brunori auf. Ihr Duo nennt sich [Samvad](http://www.samvadmusic.com/) und sie sind weltweit in verschiedenen klassischen und zeitgenössischen Kollaborationen aufgetreten.
 
-Dieses Mal wird Nicoli eine seltene Solo-Performance geben, die uns die Feinheiten dieses einzigartigen alten Musikgenres näher bringt.
+Dieses Mal wird Nicoli eine seltene Solo-Performance geben, die den Zuhörer:innen die Feinheiten des einzigartigen alten Musikgenres *dhrupad* näher bringen wird.
 
 ---
 

@@ -11,5 +11,3 @@ He received his first award at the AVW Piano Composer Cup at the age of seven. T
 His compositions are performed at festivals in Germany and abroad, such as the NOW! Festival Essen, Beethovenfest Bonn, Kurt Weil Fest Dessau, Klangwerkstatt Berlin, the Wittener Tage für Neue Kammermusik (Newcomer Concert) and the Donaueschinger Musiktage für Neue Musik (Next Generation, 2016). He has worked with renowned ensembles and musicians, including the Bochumer Symphoniker, the Internationale Ensemble Modern Akademie, the Ensemble S201, the Ensemble Consord, or the Neues Ensemble Hannover.
 
 He studied oboe with Michael Niesemann at Folkwang University of the Arts and with Matthias Bäcker at Hochschule für Musik "Franz Liszt" Weimar. He received his compositional training with Günter Steinke (instrumental) and Michael Edwards (electronics).
-
-Translated with www.DeepL.com/Translator (free version)

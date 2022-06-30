@@ -2,13 +2,10 @@
 
 The British bagpager Callum Armstrong will be performing a selection of Piobaireachd (an art music genre associated primarily with the Scottish Highlands) tunes. In accordance to the traditional performance practice he will be performing in the outdoors and in a kilt. The following tunes are intended:
 
-"The Carles with the Breeks", a Piobaireachd which is based on a traditional tune.
-
-"Lament for the Viscount of Dundee", an irregular tune that begins by using all 9 notes, and then drops them over the course of the variations until only 4 remain.
-
-"The Desperate Battle of the Birds", the variations follow a common phrase pattern of AAB AB\*B AB. This tune is the only Piobaireachd that is believed to be programmatic, and is said to depict 2 eagles Fighting.
-
-"Beloved Scotland", an irregular Piobaireachd which uses all 9 notes of the pipe.
+- "The Carles with the Breeks", a Piobaireachd which is based on a traditional tune.
+- "Lament for the Viscount of Dundee", an irregular tune that begins by using all 9 notes, and then drops them over the course of the variations until only 4 remain.
+- "The Desperate Battle of the Birds", the variations follow a common phrase pattern of AAB AB\*B AB. This tune is the only Piobaireachd that is believed to be programmatic, and is said to depict 2 eagles Fighting.
+- "Beloved Scotland", an irregular Piobaireachd which uses all 9 notes of the pipe.
 
 ---
 

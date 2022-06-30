@@ -2,13 +2,10 @@
 
 Der britische Dudelsackspieler [Callum Armstrong](https://callumarmstrong.co.uk) wird eine Auswahl von Werken der Piobaireachd spielen. Piobaireachd ist eine Kunstmusik, die hauptsächlich mit den schottischen Highlands verbunden ist. In Übereinstimmung mit der traditionellen Aufführungspraxis wird er im Freien und im Kilt auftreten. Die folgenden Werke sind vorgesehen:
 
-"The Carles with the Breeks", ein Piobaireachd, das auf einer traditionellen Melodie basiert.
-
-"Lament for the Viscount of Dundee", ein unregelmäßiges Stück, bei dem zunächst alle 9 Noten verwendet werden, die dann im Laufe der Variationen verschwinden, bis nur noch 4 übrig bleiben.
-
-"The Desperate Battle of the Birds", die Variationen folgen einem gemeinsamen Phrasenmuster von AAB AB\*B AB. Diese Melodie ist der einzige Piobaireachd, von dem man annimmt, dass er programmatisch sei. Es soll den Kampf zweier Adler darstellen.
-
-"Beloved Scotland", ein unregelmäßiger Piobaireachd, das alle 9 Töne der Pfeife verwendet.
+- "The Carles with the Breeks", ein Piobaireachd, das auf einer traditionellen Melodie basiert.
+- "Lament for the Viscount of Dundee", ein unregelmäßiges Stück, bei dem zunächst alle 9 Noten verwendet werden, die dann im Laufe der Variationen verschwinden, bis nur noch 4 übrig bleiben.
+- "The Desperate Battle of the Birds", die Variationen folgen einem gemeinsamen Phrasenmuster von AAB AB\*B AB. Diese Melodie ist der einzige Piobaireachd, von dem man annimmt, dass er programmatisch sei. Es soll den Kampf zweier Adler darstellen.
+- "Beloved Scotland", ein unregelmäßiger Piobaireachd, das alle 9 Töne der Pfeife verwendet.
 
 ---
 

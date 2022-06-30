@@ -10,7 +10,7 @@ For this concert, two pieces were selected that contain the drone as an intrinsi
 
 The composition's extremely challenging material was inspired by the acoustical concept of a 'critical band'. Chiyoko Szlavnics had been introduced to the concept by James Tenney's 1988 composition, Critical Band.
 
-Gradient of Detail's original drawings reveal how its form was conceived as a triptych; how such exceptionally-sustained music was intuitively designed to unfold in time, and in pitch space. They also reveal how unisons and silences are important structural elements, with the silences providing the listener with a few moments to release the intensity of the 'just heard', before the music continues.
+*Gradient of Detail*'s original drawings reveal how its form was conceived as a triptych; how such exceptionally-sustained music was intuitively designed to unfold in time, and in pitch space. They also reveal how unisons and silences are important structural elements, with the silences providing the listener with a few moments to release the intensity of the 'just heard', before the music continues.
 
 Resembling plant structures, the drawings were inspired by her childhood encounters with the alien-looking milkweed plant: its pods, its silky, "parachute seeds", and its occasional visitors––Monarch Butterfly caterpillars. Milkweed is the only plant upon which the Monarch will lay its eggs. Tragically, the plant's habitats along the butterfly's migration routes in North America have been largely destroyed by modern agricultural practices.
 

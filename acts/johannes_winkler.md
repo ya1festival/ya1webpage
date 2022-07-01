@@ -1,5 +1,5 @@
 # FEED DRONE - eine transmediale LECTURE PERFORMANCE
-## mit dem Neue Musik Influencer Johannes Winkler [@winkler.works](https://www.instagram.com/deconstructed.stories/)
+## mit dem Neue Musik Influencer [@winkler.works](https://www.instagram.com/deconstructed.stories/)
 
 Ganz im Sinne des Festival-Titels ‚Drone‘ wird die Lecture Performance als Kontinuum gestaltet: Medial auf Instagram [@winkler.works](https://www.instagram.com/deconstructed.stories/) wo sie vor- & weiterkomponiert wird, sowie in inhaltlich-strukturellen Bezügen zu den anderen auf dem ya¹ Festival präsentierten Stücken.
 

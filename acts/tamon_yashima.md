@@ -4,7 +4,7 @@ Am 6. August wird das Dark Ambient Projekt von [Tamon Yashima](https://www.tamon
 
 ---
 
-Der in Deutschland geborene Komponist und Oboist [Tamon Yashima](https://www.tamonyashima.de/) ist derzeit Mitglied der Neue-Musik-Ensembles S201 und Consord. 2019/20 war er Stipendiat der Internationalen Ensemble Modern Akademie. 
+Der in Deutschland geborene Komponist und Oboist [Tamon Yashima](https://www.tamonyashima.de/) ist derzeit Mitglied der Neue-Musik-Ensembles [S201](http://www.ensemble-s201.com/) und Consord. 2019/20 war er Stipendiat der Internationalen Ensemble Modern Akademie. 
 
 Bereits mit sieben Jahren erhielt er beim AVW Piano Composer Cup seine erste Auszeichnung. Darauf folgten unter anderem Preise beim Deutschen Musikwettbewerb für Komposition in Bonn, als Oboist den zweiten Preis beim 4. John-Cage-Wettbewerb für die Interpretation zeitgenössischer Musik. Er war Residenzkünstler der Stiftung Bauhaus und „composer in residence“ der Orgelwelten Ratingen.
 

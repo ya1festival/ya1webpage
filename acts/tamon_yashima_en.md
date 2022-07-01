@@ -4,7 +4,7 @@ On the 6th of August, [Tamon Yashimas](https://www.tamonyashima.de/) dark ambien
 
 ---
 
-The German-born composer and oboist [Tamon Yashima](https://www.tamonyashima.de/) is currently a member of the New Music Ensembles S201 and Consord. In 2019/20 he was a scholarship holder of the International Ensemble Modern Academy. 
+The German-born composer and oboist [Tamon Yashima](https://www.tamonyashima.de/) is currently a member of the New Music Ensembles [S201](http://www.ensemble-s201.com/) and Consord. In 2019/20 he was a scholarship holder of the International Ensemble Modern Academy. 
 
 He received his first award at the AVW Piano Composer Cup at the age of seven. This was followed by prizes at the German Music Competition for Composition in Bonn, as well as second prize as an oboist at the 4th John Cage Competition for the Interpretation of Contemporary Music, among others. He was resident artist of the Bauhaus Foundation and "composer in residence" of the Orgelwelten Ratingen.
 

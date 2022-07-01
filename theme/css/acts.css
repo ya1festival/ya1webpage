@@ -1,0 +1,141 @@
+@import "base.css";
+
+.description-text {
+    color: var(--ya-text-color);
+}
+
+.grey-on-hover {
+    cursor: pointer;
+    -webkit-filter: grayscale(0%) blur(0);
+    -moz-filter: grayscale(0%) blur(0);
+    filter: grayscale(0%) blur(0);
+    transition: all 0.1s ease;
+}
+
+.grey-on-hover:hover {
+    cursor: pointer;
+   -webkit-filter: grayscale(100%) blur(2px);
+   -moz-filter: grayscale(100%) blur(2px);
+   filter: grayscale(100%) blur(2px);
+}
+
+
+.modal h1 {
+    font-size: 200%;
+    color: var(--ya-link-color);
+}
+
+.modal h2 {
+    font-size: 150%;
+    color: var(--ya-link-color);
+}
+
+.modal p {
+    color: var(--ya-text-color);
+    text-align: justify !important;
+    /* text-align-last: justify; */
+    text-align-last: left;
+    white-space: pre-line;
+    padding: 1vh;
+}
+
+.modal strong {
+    color: var(--ya-link-color);
+    text-align: justify !important;
+    /* text-align-last: justify; */
+    text-align-last: left;
+    white-space: pre-line;
+}
+
+.modal ul {
+    padding-left: 3vh;
+    list-style-type: '* ';
+}
+
+.modal li {
+    color: var(--ya-text-color);
+    text-align: justify !important;
+    text-align-last: left;
+    white-space: pre-line;
+}
+
+.modal a {
+    color: var(--ya-link-color);
+}
+
+.modal a:hover {
+    background-color: rgba(0, 0, 0, 0);
+    font-family: "ppmori-italic";
+    color: var(--ya-link-color);
+}
+
+.right-column img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+}
+
+.left-column img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+}
+
+.photo-copyright-note {
+    color: var(--ya-text-color);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.act-card {
+    cursor: pointer;
+}
+
+.act-card:hover {
+    font-family: "ppmori-italic";
+}
+
+.card {
+    box-shadow: 0px 0px;
+}
+
+.card-header {
+    box-shadow: 0px 0px;
+}
+
+
+
+.chiyoko-drawing {
+    width: 70vh;
+}
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.modal .accordion {
+  background-color: white;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-size: 150%;
+  color: var(--ya-link-color);
+  font-family: "ppmori";
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.modal .active, .modal .accordion:hover {
+  font-family: "ppmori-italic";
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.modal .panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}

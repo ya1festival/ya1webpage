@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# SIZE="350x"
+SIZE="550x"
+
+convert "artists/*.jpeg[$SIZE]" -set filename:base "%[basename]" "artists/resized/%[filename:base].jpeg"
+convert "artists/*.jpg[$SIZE]" -set filename:base "%[basename]" "artists/resized/%[filename:base].jpg"
+convert "artists/*.png[$SIZE]" -set filename:base "%[basename]" "artists/resized/%[filename:base].png"

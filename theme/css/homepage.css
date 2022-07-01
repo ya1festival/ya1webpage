@@ -1,3 +1,5 @@
+@import "base.css";
+
 .rotate {
     writing-mode: vertical-rl;
     text-orientation: mixed;
@@ -29,9 +31,9 @@
 
 
 .ya-header  {
-    background-image: url("/theme/images/yllwmoss_ya1_erk_resized.png");
+    background-image: url("/theme/images/yllwmoss_ya1_erk_resized_cropped.png");
     background-repeat: no-repeat;
-      background-size: contain;
+    background-size: contain;
     padding-bottom: 16vh;
 }
 
@@ -95,15 +97,6 @@
 }
 
 
-.menu-list a {
-    color: var(--ya-link-color);
-}
-
-.menu-list a:hover {
-    background-color: rgba(0, 0, 0, 0);
-    font-family: "ppmori-italic";
-    color: var(--ya-link-color);
-}
 
 
 #be-there {
@@ -113,13 +106,19 @@
     width: 50%;
     height: auto;
     */
-    width: 40vh;
+    width: 65vh;
     height: auto;
 }
 
+/*
 #sliced-sidebar-image {
-    width: auto;
-    height: 100%;
+    width: 5vh;
+    height: 80%;
+}
+*/
+#sliced-sidebar-image {
+    background-image: url("/theme/images/moss_erk_sliced_thin.png");
+    background-size: cover;
 }
 
 
@@ -129,9 +128,53 @@
 
 
 .time-and-space {
-    color: var(--ya-text-color-salmon);
+    color: var(--ya-text-color);
 }
 
 .team-table {
     width: 100%;
+}
+
+@keyframes scale {
+    from {
+        transform: scale(1, 2);
+    }
+
+    to {
+        transform: scale(3, 1);
+    }
+}
+
+
+.mobile-dropdown-image {
+    cursor: pointer;
+    animation-duration: 2s;
+    animation-name: scale;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@media screen and (max-width: 768px) {
+  .has-navbar-fixed-top-responsive {
+    padding-top: 3.25rem;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-navbar-fixed-top-responsive {
+    padding-top: 0rem;
+  }
+}
+
+
+.ya-footer {
+    color: var(--ya-link-color);
+    background-image: url("/theme/images/footer_background_scaled.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.hand-written-header {
+    width: 40vh;
 }

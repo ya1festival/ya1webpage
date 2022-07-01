@@ -9,6 +9,8 @@ Für dieses Konzert wurden zwei Stücke selektiert die den drone als immanentes 
 "Gradient of detail" von Chiyoko Szlavnics
 </button>
 <div class="panel" id="gradients-panel">
+<!-- we don't know yet if we are allowed to use the given text -->
+<!--
     <p>
         <em>Gradient of detail</em> ist die zweite einer langen Reihe von zeichnungsbasierten Kompositionen, die Chiyoko Szlavnics zwischen 2004 und 2014 fertiggestellt hat.
 
@@ -25,19 +27,21 @@ Für dieses Konzert wurden zwei Stücke selektiert die den drone als immanentes 
     <p>
         Die Zeichnungen, die an Pflanzenstrukturen erinnern, wurden von den Kindheitsbegegnungen mit der fremdartig aussehenden Seidenpflanze inspiriert: Ihre Schoten, ihre seidigen "Fallschirmsamen" und ihre gelegentlichen Besucher, die Raupen des Monarchfalters. Seidenpflanzen sind die einzigen Pflanze, auf denen der Monarchfalter seine Eier ablegt. Tragischerweise sind die Lebensräume der Pflanze entlang der Wanderrouten des Schmetterlings in Nordamerika durch moderne landwirtschaftliche Praktiken weitgehend zerstört worden.
     </p>
+-->
 </div>
 
 <button class="accordion" data-target="primsa-panel">
 "Prisma Interius VI - for VT" von Catherine Lamb
 </button>
 <div class="panel" id="primsa-panel">
+<!-- we don't know yet if we are allowed to use the given text -->
+<!--
     <p>
-        Das Viola-Torros-Projekt ist eine fortlaufende Forschungsarbeit der Komponisten und Interpreten <a href="https://www.sacredrealism.org/artists/catherine-lamb/">Catherine Lamb</a> und <a href="https://www.wandelweiser.de/johnny-chang.html">Johnny Chang</a>, die darauf abzielt, die Kompositionen einer vormittelalterlichen Komponistin, Viola Torros, zu realisieren und zu bearbeiten.
+        In <a href="https://www.sacredrealism.org/artists/catherine-lamb/">Catherine Lambs</a> <em>Prisma Interius</em> Serie artikuliert die Unvorhersehbarkeit der Außenwelt das Wahrnehmungsfeld durch präzise Bandpassfilter, während akustische Instrumente und Musiker die Entfaltung des harmonischen Raums steuern. Eine Serie von neun Stücken, die das Potenzial des Secondary Rainbow Synthesizers erforschen, eines 2016-2017 mit Bryan Eubanks entwickelten Instruments, das die Live-Umgebung außerhalb des Aufführungsraums als Rauschgenerator für grundlegende subtraktive Synthese nutzt.
 
-Viola T. war eine anonyme Komponistin, die außerhalb der religiösen und akademischen Einrichtungen ihrer Zeit arbeitete. In ihrer eigenen Praxis dokumentierte sie ihre Werke in einer minimal effektiven Weise, gerade genug, um mit ihren Mitarbeitern zu kommunizieren, aber kaum genug, um ein Vermächtnis für spätere Generationen von Liebhabern ihrer Musik zu erhalten.
-
-Das Konzept der "Forschung", auf das sich das Viola-Torros-Projekt bezieht, umfasst das Studium verschiedener relevanter Musikstile des Vormittelalters (arabische, byzantinische und indische Modi) und die Untersuchung möglicher melodischer und harmonischer Entwicklungen, die V. T. entdeckt haben könnte. Indem ein Aspekt eines solchen Musikstils ausgewählt wird, werden Details entdeckt und in einem Arrangement für zwei Bratschen präsentiert, oft mit zusätzlichen Ergänzungen.
+        Die Absicht ist es, die Außenwelt und akustische Instrumente dynamisch zu verschmelzen. Das Ergebnis ist wie der Rückstand einer äolischen Harfe, der die spektralen Informationen hervorhebt, die der Zuhörer in einem bestimmten Moment wahrnehmen kann.
     </p>
+-->
 </div>
 
 ---

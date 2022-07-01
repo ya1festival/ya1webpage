@@ -31,14 +31,14 @@ For this concert, two pieces were selected that contain the drone as an intrinsi
 "Prisma Interius VI - for VT" by Catherine Lamb
 </button>
 <div class="panel" id="primsa-panel">
+<!-- we don't know yet if we are allowed to use the given text -->
+<!--
     <p>
-        Viola Torros Project is ongoing research, by composer-performers <a href="https://www.sacredrealism.org/artists/catherine-lamb/">Catherine Lamb</a> and <a href="https://www.wandelweiser.de/johnny-chang.html">Johnny Chang</a>, which seeks to realise and arrange the compositions of a pre-medieval composer, Viola Torros.
+        In <a href="https://www.sacredrealism.org/artists/catherine-lamb/">Catherine Lamb</a>'s <em>Prisma Interius</em> series the unpredictability of the outside articulates the field of perception through precise bandpass filters, while acoustic instruments and musicians guide the unfolding of its harmonic space. A series of nine pieces exploring the potential of the Secondary Rainbow synthesizer, an instrument developed in 2016-2017 with Bryan Eubanks, that uses the live environment outside the performance space as a noise generator for basic subtractive synthesis.
 
-        Viola T. was an anonymous composer who worked outside of the religious and academic establishments of her time. In her own practice, she documented her works in a minimally effective way, just enough to communicate with her fellow collaborators but barely enough to preserve a legacy for later generations of enthusiasts of her music.
-
-        The concept of ‘research’ referred to by the Viola Torros Project involves studies of various relevant musical styles of the pre-medieval period (arabic, byzantine and indian modes), and investigating possible evolution of melodic and harmonic developments as V. T. might have discovered. Choosing one aspect of such a musical style to focus upon, details are discovered and presented in an arrangement for two violas, often with additional augmentations.
-
+        The intention is to dynamically fuse the outside world and acoustic instruments and what emerges is a sort of Aeolian harp residue highlighting the spectral information the listener might perceive in a given moment.
     </p>
+-->
 </div>
 
 ---

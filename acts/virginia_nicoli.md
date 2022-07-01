@@ -6,6 +6,8 @@ Sie tritt meist im Duo mit ihrem Lebens- und Musikpartner Igino Giovanni Brunori
 
 Dieses Mal wird Nicoli eine seltene Solo-Performance geben, die den Zuhörer:innen die Feinheiten des einzigartigen alten Musikgenres *dhrupad* näher bringen wird.
 
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/284996640&color=%23f2c7c7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/samvadmusic" title="Samvad" target="_blank" style="color: #cccccc; text-decoration: none;">Samvad</a> · <a href="https://soundcloud.com/samvadmusic/rag-jonpuri-alap-jor-and-jhala-dhrupad-vocal" title="Rag Jaunpuri - Alap, jor and jhala - Dhrupad Vocal" target="_blank" style="color: #cccccc; text-decoration: none;">Rag Jaunpuri - Alap, jor and jhala - Dhrupad Vocal</a></div>
+
 ---
 
 Ihre Reise mit der Musik begann in ihrer frühen Kindheit, als sie an verschiedenen Privatschulen und am Konservatorium in Mailand Silberflöte studierte.

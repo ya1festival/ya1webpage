@@ -17,7 +17,7 @@ if __name__ == "__main__":
         )
 
         with open(markdown_file_path, "r") as markdown_file:
-            text = markdown_file.read()
+            text = markdown_file.read().lower()
             html = markdown.markdown(text)
 
         with open(html_file_path, "w") as html_file:

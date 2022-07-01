@@ -7,8 +7,10 @@
   <div class="modal-background"></div>
   <div class="modal-card">
     <section class="modal-card-body">
-        <p><a href="{{ venue_link }}">{{ venue }}</a> // {{ time }} // <a href="https://pretix.eu/ya1festival/2022/">ticket</a></p>
-        {% include modal_content_path %}
+        <div class="block">
+            <p><a href="{{ venue_link }}">{{ venue }}</a> // {{ time }}</p>
+            {% include modal_content_path %}
+        </div>
     </section>
   </div>
 </div>
@@ -37,7 +39,6 @@
 
     </div>
 </div>
-
 
 {% endmacro %}
 

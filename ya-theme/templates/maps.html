@@ -8,6 +8,9 @@
 
 {% set language = article.title %}
 
+
+{% block content %}
+
 {% if language == "de" %}
     {% set img_href = "/theme/images/acts_karte_ya1_erk_scaled.png" %}
     {% set suffix0 = "" %}
@@ -17,9 +20,6 @@
     {% set suffix0 = "/en" %}
     {% set suffix1 = "_en" %}
 {% endif %}
-
-
-{% block content %}
 
 <!-- MAP FOR MOBILE -->
 <div class="container is-hidden-tablet">

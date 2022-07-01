@@ -1,6 +1,6 @@
 # [Callum Armstrong](https://callumarmstrong.co.uk/)
 
-The British bagpager Callum Armstrong will be performing a selection of Piobaireachd (an art music genre associated primarily with the Scottish Highlands) tunes. In accordance to the traditional performance practice he will be performing in the outdoors and in a kilt. The following tunes are intended:
+The British bagpager Callum Armstrong will be performing a selection of Piobaireachd (an art music genre associated primarily with the Scottish Highlands) tunes. In accordance to the traditional performance practice he will be performing in the outdoors. The following tunes are intended:
 
 - "The Carles with the Breeks", a Piobaireachd which is based on a traditional tune.
 - "Lament for the Viscount of Dundee", an irregular tune that begins by using all 9 notes, and then drops them over the course of the variations until only 4 remain.

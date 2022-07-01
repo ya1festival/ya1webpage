@@ -10,7 +10,7 @@ Dieses Mal wird Nicoli eine seltene Solo-Performance geben, die den Zuhörer:inn
 
 ---
 
-Ihre Reise mit der Musik begann in ihrer frühen Kindheit, als sie an verschiedenen Privatschulen und am Konservatorium in Mailand Silberflöte studierte.
+Ihre Reise mit der Musik begann in ihrer frühen Kindheit, als sie an verschiedenen Privatschulen und am Konservatorium in Mailand Querflöte studierte.
 
 Im Alter von 18 Jahren entdeckte sie jedoch die Welt der klassischen indischen Musik und tauchte von da an vollständig in diese alte Kunstform ein.
 

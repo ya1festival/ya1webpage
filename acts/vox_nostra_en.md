@@ -8,11 +8,9 @@ From all over Europe, astonished contemporaries travelled to Paris, as the anony
  
 Inspired by the idea of the "ya¹ day festival for contemporary music", the programme is complemented by selected chants from the Middle Ages sung over a constant-sounding drone. The hypnotic effect of these compositions has survived the centuries and can still be felt today.
  
-**Performers:**
+**Performers**
 
 - Winnie Brückner (soprano)
 - Philipp Cieslewicz (alto)
 - Burkard Wehner (baritone and musical direction)
 - Werner Blau (bass)
-
-

@@ -8,7 +8,7 @@ Aus ganz Europa reisten staunende Zeitgenossen nach Paris, wie es uns der anonym
  
 Inspiriert durch die Idee des "ya¹ Tagesfestival für aktuelle Musik" wird das Programm durch ausgewählte Gesänge des Mittelalters ergänzt, die über einem konstant klingenden Bordunton (drone) gesungen werden. Die hypnotische Wirkung dieser Kompositionen hat die Jahrhunderte überdauert und ist auch heute noch spürbar.
  
-**Ausführende:**
+**Ausführende**
 
 - Winnie Brückner (Sopran)
 - Philipp Cieslewicz (Altus)

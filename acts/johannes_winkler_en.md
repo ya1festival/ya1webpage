@@ -1,4 +1,3 @@
-# Johannes Winkler
 # FEED DRONE - a transmedia LECTURE PERFORMANCE
 ## with the New Music influencer [@winkler.works](https://www.instagram.com/deconstructed.stories/)
 
@@ -8,4 +7,6 @@ By means of narrative-anticipatory swipe gestures, artificial intelligence and d
 
 ---
 
-\*1984, lives and works as a freelance media artist and composer in Essen. His recent work explores recursive relationships of 'counting and dreaming' and includes visual, auditory and conceptual works. Since 2017, he has been recomposing his broad oeuvre in lecture-performances and audiovisual 'slide compositions' - as artistic research in image/film, text and music.
+\*1984, lives and works as a freelance media artist and composer in Essen. His more recent work explores recursive relationships between 'counting and dreaming' and includes visual, auditory and conceptual works. Since 2017 he has been re-composing his wide-ranging oeuvre in lecture performances and audiovisual 'slide compositions' - as artistic research in images / films, text and music.
+
+On Instagram, Johannes Winkler re-composes his oeuvre as audio-visual 'slide compositions'. Each post represents a multi-page work and is telling, documenting, anticipating - about the cybernetic everyday, metaphysics and aesthetics: people and art - people and numbers - people and nature - people and people. In order to keep them alive, the 'slide compositions' are deconstructed again in different contexts: e.g. in lectures and on his further Instagram accounts [@konnakol.de](https://www.instagram.com/konnakol.de/) [@deconstructed.stories](https://www.instagram.com/konnakol.de/) and [@wind.musik](https://www.instagram.com/wind.musik/).

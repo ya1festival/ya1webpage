@@ -1,5 +1,5 @@
 {% macro get_navigation_url(site_url, link, language) %}
-    {%- set href = site_url + "/" + link -%} 
+    {%- set href = "/" + link -%} 
     {%- if language == "en" -%}
         {% set href = href + "/en" -%} 
     {%- endif -%}

@@ -1,6 +1,6 @@
 {% macro get_language_selector(language, url) %}
 
-   {% if language == "de" %}
+{% if language == "de" %}
     {% set english_link = url + "/en" %}
     {% set german_link = url %}
 {% else %}

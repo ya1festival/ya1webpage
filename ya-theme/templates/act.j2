@@ -6,7 +6,11 @@
 <div class="modal" id="{{- modal_id -}}">
   <div class="modal-background"></div>
   <div class="modal-card">
+    <header class="modal-card-head is-hidden-tablet">
+      <button class="delete" aria-label="close"></button>
+    </header>
     <section class="modal-card-body">
+        <button class="modal-close is-large" aria-label="close"></button>
         <div class="block">
             <p><a href="{{ venue_link }}">{{ venue }}</a> // {{ time }}</p>
             {% include modal_content_path %}

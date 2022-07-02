@@ -9,10 +9,8 @@ Für dieses Konzert wurden zwei Stücke selektiert die den drone als immanentes 
 "Gradient of detail" von Chiyoko Szlavnics
 </button>
 <div class="panel" id="gradients-panel">
-<!-- we don't know yet if we are allowed to use the given text -->
-<!--
     <p>
-        <em>Gradient of detail</em> ist die zweite einer langen Reihe von zeichnungsbasierten Kompositionen, die Chiyoko Szlavnics zwischen 2004 und 2014 fertiggestellt hat.
+        <em>Gradient of detail</em> ist die zweite einer langen Reihe von zeichnungsbasierten Kompositionen, die <a href="https://www.chiyokoszlavnics.org/">Chiyoko Szlavnics</a> zwischen 2004 und 2014 fertiggestellt hat.
 
         Das äußerst anspruchsvolle Material der Komposition wurde durch das akustische Konzept eines "kritischen Bandes" inspiriert, das <a href="https://www.chiyokoszlavnics.org/">Chiyoko Szlavnics</a> durch James Tenneys Komposition <em>Critical Band</em> von 1988 kennen gelernt hat.
 
@@ -27,7 +25,6 @@ Für dieses Konzert wurden zwei Stücke selektiert die den drone als immanentes 
     <p>
         Die Zeichnungen, die an Pflanzenstrukturen erinnern, wurden von den Kindheitsbegegnungen mit der fremdartig aussehenden Seidenpflanze inspiriert: Ihre Schoten, ihre seidigen "Fallschirmsamen" und ihre gelegentlichen Besucher, die Raupen des Monarchfalters. Seidenpflanzen sind die einzigen Pflanze, auf denen der Monarchfalter seine Eier ablegt. Tragischerweise sind die Lebensräume der Pflanze entlang der Wanderrouten des Schmetterlings in Nordamerika durch moderne landwirtschaftliche Praktiken weitgehend zerstört worden.
     </p>
--->
 </div>
 
 <button class="accordion" data-target="primsa-panel">

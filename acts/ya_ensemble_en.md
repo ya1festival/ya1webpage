@@ -13,7 +13,7 @@ For this concert, two pieces were selected that contain the drone as an intrinsi
 
         The composition's extremely challenging material was inspired by the acoustical concept of a 'critical band'. <a href="https://www.chiyokoszlavnics.org/">Chiyoko Szlavnics</a> had been introduced to the concept by James Tenney's 1988 composition, <em>Critical Band</em>.
 
-    <em>Gradients of Detail</em>'s original drawings reveal how its form was conceived as a triptych; how such exceptionally-sustained music was intuitively designed to unfold in time, and in pitch space. They also reveal how unisons and silences are important structural elements, with the silences providing the listener with a few moments to release the intensity of the 'just heard', before the music continues.
+    <em>Gradients of Details</em> original drawings reveal how its form was conceived as a triptych; how such exceptionally-sustained music was intuitively designed to unfold in time, and in pitch space. They also reveal how unisons and silences are important structural elements, with the silences providing the listener with a few moments to release the intensity of the 'just heard', before the music continues.
 
     </p>
 

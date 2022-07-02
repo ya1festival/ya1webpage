@@ -29,7 +29,7 @@ THEME = "ya-theme/"
 # Title / Link
 # XXX: Footer links are directly defined in 'footer.j2'
 MENU_ITEM_LIST = [
-    [{"de": "1", "en": "1"}, ""],
+    # [{"de": "1", "en": "1"}, ""],
     [{"de": "karte", "en": "map"}, "maps"],
     [{"de": "acts", "en": "acts"}, "acts"],
     [{"de": "tickets", "en": "tickets"}, "tickets"],

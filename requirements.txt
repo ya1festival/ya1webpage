@@ -1,4 +1,5 @@
 pelican == 4.7.2
+pelican-seo==4.7.2
 markdown
 typogrify
 ghp-import == 2.0.2

@@ -137,11 +137,11 @@
 
 @keyframes scale {
     from {
-        transform: scale(1, 2);
+        transform: scale(1, 4);
     }
 
     to {
-        transform: scale(3, 1);
+        transform: scale(3, 1.25);
     }
 }
 

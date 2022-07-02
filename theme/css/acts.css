@@ -139,3 +139,7 @@
   display: none;
   overflow: hidden;
 }
+
+.modal-card-head {
+  background-color: white;
+}

@@ -6,15 +6,15 @@ Für dieses Konzert wurden zwei Stücke selektiert die den drone als immanentes 
 
 
 <button class="accordion" data-target="gradients-panel">
-"Gradient of detail" von Chiyoko Szlavnics
+"Gradients of detail" von Chiyoko Szlavnics
 </button>
 <div class="panel" id="gradients-panel">
     <p>
-        <em>Gradient of detail</em> ist die zweite einer langen Reihe von zeichnungsbasierten Kompositionen, die <a href="https://www.chiyokoszlavnics.org/">Chiyoko Szlavnics</a> zwischen 2004 und 2014 fertiggestellt hat.
+        <em>Gradients of detail</em> ist die zweite einer langen Reihe von zeichnungsbasierten Kompositionen, die <a href="https://www.chiyokoszlavnics.org/">Chiyoko Szlavnics</a> zwischen 2004 und 2014 fertiggestellt hat.
 
         Das äußerst anspruchsvolle Material der Komposition wurde durch das akustische Konzept eines "kritischen Bandes" inspiriert, das <a href="https://www.chiyokoszlavnics.org/">Chiyoko Szlavnics</a> durch James Tenneys Komposition <em>Critical Band</em> von 1988 kennen gelernt hat.
 
-        Die Originalzeichnungen von <em>Gradient of detail</em> zeigen, wie die Form des Werks als Triptychon konzipiert wurde; wie eine solche außergewöhnlich statische Musik intuitiv entworfen wurde, um sich in der Zeit und im Tonraum zu entfalten. Sie zeigen auch, wie Unisonos und Stille wichtige Strukturelemente sind, wobei die Stille dem Hörer einige Momente bietet, um die Intensität des gerade Gehörten zu lösen, bevor die Musik weitergeht.
+        Die Originalzeichnungen von <em>Gradients of detail</em> zeigen, wie die Form des Werks als Triptychon konzipiert wurde; wie eine solche außergewöhnlich statische Musik intuitiv entworfen wurde, um sich in der Zeit und im Tonraum zu entfalten. Sie zeigen auch, wie Unisonos und Stille wichtige Strukturelemente sind, wobei die Stille dem Hörer einige Momente bietet, um die Intensität des gerade Gehörten zu lösen, bevor die Musik weitergeht.
     </p>
 
         <figure>

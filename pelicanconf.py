@@ -6,10 +6,10 @@ SITENAME = "ya¹ Tagesfestival für aktuelle Musik"
 SITEURL = "https://ya-festival.org"
 # SITEURL = "http://127.0.0.1:8000"
 
-SEO_REPORT = True  # To enable this feature
-SEO_ENHANCER = True # To disable this feature
-SEO_ENHANCER_OPEN_GRAPH = False  # The default value for this feature
-SEO_ENHANCER_TWITTER_CARDS = False  # The default value for this feature
+SEO_REPORT = True
+SEO_ENHANCER = True
+SEO_ENHANCER_OPEN_GRAPH = True
+SEO_ENHANCER_TWITTER_CARDS = False
 
 PATH = "content"
 

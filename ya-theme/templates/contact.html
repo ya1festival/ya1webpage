@@ -1,7 +1,7 @@
 {% extends "homepage_short.html" %}
 
+{% set language = article.data_slot %}
 
-{% set language = article.title %}
 
 {% if language == "de" %}
     {% set role_list = [

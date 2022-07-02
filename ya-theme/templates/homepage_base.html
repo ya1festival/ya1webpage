@@ -36,6 +36,15 @@
             </div>
         </div>
         <div class="column">
+            <div class="ya-text">
+                <p class="pb-0 mb-0">06.08.2022</p>
+                <p class="pt-0 pb-0 mt-0 mb-0">
+                    {% block location_mobile %}
+                    {% endblock %}
+                </p>
+            </div>
+        </div>
+        <div class="column">
             <div class="container has-text-right pr-4 mr-4">
                 {{ language_selectors.get_language_selector(language, SITEURL + "/" + article.slug) }}
             </div>

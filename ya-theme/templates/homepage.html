@@ -34,3 +34,22 @@
     {% endif %}
 {% endblock %}
 
+
+{% block location_mobile %}
+    {% if language == "de" %}
+        essen-borbeck
+        <p class="pt-0 pb-0 mt-0 mb-0">& umgebung</p>
+    {% else %}
+        essen-borbeck
+        <p class="pt-0 pb-0 mt-0 mb-0">& surroundings</p>
+    {% endif %}
+{% endblock %}
+
+
+{% block time_mobile %}
+    {% if language == "de" %}
+        10:00 - 22:00
+    {% else %}
+        10:00 AM - 10:00 PM
+    {% endif %}
+{% endblock %}

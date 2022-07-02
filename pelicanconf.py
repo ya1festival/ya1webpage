@@ -11,6 +11,10 @@ SEO_ENHANCER = True
 SEO_ENHANCER_OPEN_GRAPH = True
 SEO_ENHANCER_TWITTER_CARDS = False
 
+SITEMAP = {
+    "exclude": ["tag/", "category/"]
+}
+
 PATH = "content"
 
 TIMEZONE = "Europe/Berlin"

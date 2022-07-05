@@ -11,7 +11,7 @@
     {% set language = "de" %}
     {% set url = SITEURL %}
 {% else %}
-    {% set language = article.title %}
+    {% set language = article.data_slot %}
     {% set url = SITEURL + "/" + language %}
 {% endif %}
 

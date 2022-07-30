@@ -1,4 +1,4 @@
-{% extends "homepage_middle.html" %}
+{% extends "homepage.html" %}
 
 {% block head %}
 <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/homepage.css"/>
@@ -62,9 +62,25 @@
 
 </div>
 
+<hr>
+<hr>
 
+<h1 class="ya-text is-size-2-fullhd is-size-2-widescreen-only is-size-2-desktop-only is-size-2-tablet-only">
+{% if language == "de" %}
+    detaillierte karte
+{% else %}
+    detailed map
+{% endif %}
+</h1>
 
-<a class="ya-text-link" href="https://goo.gl/maps/bCxZNyGdL7aMgs5x9">
+<figure class="image is-2by3">
+    <img src="/theme/images/webkarte_ya1_erk.png" alt="Detailed map">
+</figure>
+
+<hr>
+<hr>
+
+<a class="ya-text-link is-size-3-fullhd is-size-3-widescreen-only is-size-3-desktop-only is-size-3-tablet-only" href="https://goo.gl/maps/bCxZNyGdL7aMgs5x9">
 {% if language == "de" %}
     *wegbeschreibung (google maps)
 {% else %}
